@@ -206,49 +206,50 @@ function App() {
     }
   };
 
-  const guardarNotaSemana = async (e) => {
-    e.preventDefault();
-    setMensajeNota("");
+ const guardarNotaSemana = async (e) => {
+  e.preventDefault();
+  setMensajeNota("");
 
-    if (!semanaInicio || !semanaFin) {
-      setMensajeNota("Debes indicar semana desde y semana hasta.");
-      return;
-    }
+  if (!semanaInicio || !semanaFin) {
+    setMensajeNota("Debes indicar semana desde y semana hasta.");
+    return;
+  }
 
-    if (archivosNota.length === 0) {
-      setMensajeNota("Debes seleccionar al menos un archivo.");
-      return;
-    }
+  if (!archivosNota || archivosNota.length === 0) {
+    setMensajeNota("Debes seleccionar al menos un archivo.");
+    return;
+  }
 
-    const formData = new FormData();
-    formData.append("semanaInicio", semanaInicio);
-    formData.append("semanaFin", semanaFin);
-    formData.append("descripcion", descripcionNota);
+  const formData = new FormData();
+  formData.append("semanaInicio", semanaInicio);
+  formData.append("semanaFin", semanaFin);
+  formData.append("descripcion", descripcionNota || "");
 
-    archivosNota.forEach((archivo) => {
-      formData.append("archivos", archivo);
+  archivosNota.forEach((archivo) => {
+    formData.append("archivos", archivo);
+  });
+
+  try {
+    const response = await fetch(`${window.location.origin}/api/notas-semana`, {
+      method: "POST",
+      body: formData,
     });
 
-    try {
-      const response = await fetch(`${import.meta.env.VITE_API_URL}/api/notas-semana`, {
-        method: "POST",
-        body: formData,
-      });
+    const data = await response.json();
 
-      const data = await response.json();
-
-      if (!response.ok) {
-        setMensajeNota(data.error || "No se pudo cargar la nota semanal.");
-        return;
-      }
-
-      setMensajeNota("Archivos cargados. Revisa antes de guardar definitivo.");
-      setNotaPreview(data.nota);
-    } catch (error) {
-      console.error("Error guardando nota semanal:", error);
-      setMensajeNota("Error conectando con el backend.");
+    if (!response.ok) {
+      console.error("Error API notas-semana:", data);
+      setMensajeNota(data.error || "No se pudo cargar la nota semanal.");
+      return;
     }
-  };
+
+    setMensajeNota("Archivos cargados. Revisa antes de guardar definitivo.");
+    setNotaPreview(data.nota);
+  } catch (error) {
+    console.error("Error guardando nota semanal:", error);
+    setMensajeNota("Error conectando con el backend.");
+  }
+};
 
   const actualizarItem = (index, campo, valor) => {
     const nuevosItems = [...notaPreview.items];
