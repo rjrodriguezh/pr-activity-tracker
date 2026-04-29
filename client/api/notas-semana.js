@@ -279,11 +279,13 @@ export default async function handler(req, res) {
 
     const items = parsearBulletin(textoExtraido, semanaInicio);
 
+    const notaId = Date.now();
+
     const { data: nota, error: notaError } = await supabase
       .from("notas_semana")
       .insert([
         {
-          id: Date.now(),
+          id: notaId,
           semana_inicio: semanaInicio,
           semana_fin: semanaFin,
           descripcion,
