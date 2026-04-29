@@ -5,12 +5,13 @@ const supabase = createClient(
   process.env.SUPABASE_KEY
 );
 
+// ---------- helpers fechas ----------
 function fechaISO(fecha) {
   return fecha.toISOString().slice(0, 10);
 }
 
 function detectarFecha(texto) {
-  const t = String(texto || "").toLowerCase();
+  const t = (texto || "").toLowerCase();
 
   const directa = t.match(/\d{4}-\d{2}-\d{2}/);
   if (directa) return directa[0];
@@ -39,21 +40,22 @@ function detectarFecha(texto) {
   return null;
 }
 
+// ---------- respuesta ----------
 function responderActividades(fecha, actividades) {
   if (!actividades.length) {
-    return `No hay actividades registradas para ${fecha}.`;
+    return `No hay actividades para ${fecha}.`;
   }
 
-  return `Para ${fecha} hay ${actividades.length} actividad(es):\n\n` +
-    actividades
-      .map((a, i) => {
-        return `${i + 1}) ${a.actividad || a.asignatura_relacionada}
-Asignatura: ${a.asignatura_relacionada || "sin asignatura"}
-Observaciones: ${a.observaciones || "sin observaciones"}`;
-      })
-      .join("\n\n");
+  return `📅 ${fecha}\n\n` +
+    actividades.map((a, i) => {
+      return `${i + 1}) ${a.asignatura_relacionada || "Actividad"}
+🕒 ${a.hora_inicio || ""} - ${a.hora_fin || ""}
+📌 ${a.actividad || ""}
+📝 ${a.observaciones || ""}`;
+    }).join("\n\n");
 }
 
+// ---------- handler ----------
 export default async function handler(req, res) {
   try {
     if (req.method !== "POST") {
@@ -61,12 +63,13 @@ export default async function handler(req, res) {
     }
 
     const { mensaje } = req.body;
+
     const fecha = detectarFecha(mensaje);
 
     if (!fecha) {
       return res.status(200).json({
         respuesta:
-          "Puedes preguntarme: ¿qué hay hoy?, ¿qué hay mañana?, ¿qué hay ayer? o una fecha como 2026-04-27.",
+          "Puedes preguntarme:\n• qué hay hoy\n• qué hay mañana\n• qué hay ayer\n• o una fecha como 2026-04-27",
       });
     }
 
@@ -81,7 +84,10 @@ export default async function handler(req, res) {
     return res.status(200).json({
       respuesta: responderActividades(fecha, data || []),
     });
+
   } catch (error) {
+    console.error("Error chat:", error);
+
     return res.status(500).json({
       error: error.message || "Error en chat",
     });

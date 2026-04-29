@@ -205,49 +205,48 @@ const API_URL =
           .catch(() => setBackendStatus("error"));
       }, []);
 
-  const enviarMensaje = async () => {
-    const texto = mensajeChat.trim();
-    if (!texto) return;
+ const enviarMensaje = async () => {
+  if (!mensajeChat.trim()) return;
 
-    const nuevaConversacion = [
-      ...conversacion,
-      { tipo: "usuario", texto },
-    ];
+  const textoUsuario = mensajeChat;
 
-    setConversacion(nuevaConversacion);
-    setMensajeChat("");
+  setConversacion((prev) => [
+    ...prev,
+    { tipo: "usuario", texto: textoUsuario },
+  ]);
 
-    try {
-      const response = await fetch(`${import.meta.env.VITE_API_URL}/api/chat`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ mensaje: texto }),
-      });
+  setMensajeChat("");
 
-      const data = await response.json();
+  try {
+    const response = await fetch(`${API_URL}/api/chat`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        mensaje: textoUsuario,
+      }),
+    });
 
-      if (!response.ok) {
-        setConversacion([
-          ...nuevaConversacion,
-          { tipo: "bot", texto: data.error || "Ocurrió un error" },
-        ]);
-        return;
-      }
+    const data = await response.json();
 
-      setConversacion([
-        ...nuevaConversacion,
-        { tipo: "bot", texto: data.respuesta },
-      ]);
-    } catch (error) {
-      console.error("Error enviando mensaje:", error);
-      setConversacion([
-        ...nuevaConversacion,
-        { tipo: "bot", texto: "No se pudo conectar con el backend" },
-      ]);
+    if (!response.ok) {
+      throw new Error(data.error || "Error backend");
     }
-  };
+
+    setConversacion((prev) => [
+      ...prev,
+      { tipo: "bot", texto: data.respuesta },
+    ]);
+  } catch (error) {
+    console.error("Error enviando mensaje:", error);
+
+    setConversacion((prev) => [
+      ...prev,
+      { tipo: "bot", texto: "No se pudo conectar con el backend" },
+    ]);
+  }
+};
 
   const manejarEnter = (e) => {
     if (e.key === "Enter") {
