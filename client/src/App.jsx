@@ -27,14 +27,15 @@ function App() {
   const archivoInputRef = useRef(null);
   const [backendStatus, setBackendStatus] = useState("Cargando...");
 
-const semana = getSemanaActual();
 
-const [semanaInicio, setSemanaInicio] = useState(semana.inicio);
-const [semanaFin, setSemanaFin] = useState(semana.fin);
+useEffect(() => {
+  const semana = getSemanaActual();
 
-const [descripcionNota, setDescripcionNota] = useState(
-  `Descripción semana ${semana.inicio} al ${semana.fin}`
-);
+  setSemanaInicio(semana.inicio);
+  setSemanaFin(semana.fin);
+  setDescripcionNota(`Descripción semana ${semana.inicio} al ${semana.fin}`);
+}, []);
+
 
   const [archivosNota, setArchivosNota] = useState([]);
   const [notaPreview, setNotaPreview] = useState(null);
@@ -359,7 +360,7 @@ const obtenerHorarioDia = (item, diaKey) => {
               <span>Bulletin / imágenes / PDF</span>
             </div>
 
-            <form onSubmit={guardarNotaSemana} className="form-grid">
+              <form onSubmit={guardarNotaSemana} className="form-grid" encType="multipart/form-data">
               <div className="row-fechas">
                 <div>
                   <label>Desde</label>
