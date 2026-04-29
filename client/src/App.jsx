@@ -1,13 +1,41 @@
 import { useEffect, useRef, useState } from "react";
 import "./App.css";
 
+
+
+  function getSemanaActual() {
+  const hoy = new Date();
+
+  const dia = hoy.getDay(); // 0 domingo, 1 lunes...
+  const diffLunes = (dia === 0 ? -6 : 1 - dia);
+
+  const lunes = new Date(hoy);
+  lunes.setDate(hoy.getDate() + diffLunes);
+
+  const viernes = new Date(lunes);
+  viernes.setDate(lunes.getDate() + 4);
+
+  const format = (d) => d.toISOString().split("T")[0];
+
+  return {
+    inicio: format(lunes),
+    fin: format(viernes),
+  };
+}
+
 function App() {
   const archivoInputRef = useRef(null);
   const [backendStatus, setBackendStatus] = useState("Cargando...");
 
-  const [semanaInicio, setSemanaInicio] = useState("");
-  const [semanaFin, setSemanaFin] = useState("");
-  const [descripcionNota, setDescripcionNota] = useState("");
+const semana = getSemanaActual();
+
+const [semanaInicio, setSemanaInicio] = useState(semana.inicio);
+const [semanaFin, setSemanaFin] = useState(semana.fin);
+
+const [descripcionNota, setDescripcionNota] = useState(
+  `Descripción semana ${semana.inicio} al ${semana.fin}`
+);
+
   const [archivosNota, setArchivosNota] = useState([]);
   const [notaPreview, setNotaPreview] = useState(null);
   const [mensajeNota, setMensajeNota] = useState("");
@@ -20,6 +48,22 @@ function App() {
         "Hola 👋 Pregúntame cosas como: ¿qué toca mañana?, ¿qué materiales lleva el viernes? o ¿qué hay esta semana?",
     },
   ]);
+
+
+
+
+
+const semana = getSemanaActual();
+
+const [semanaInicio, setSemanaInicio] = useState(semana.inicio);
+const [semanaFin, setSemanaFin] = useState(semana.fin);
+
+const [descripcionNota, setDescripcionNota] = useState(
+  `Descripción semana ${semana.inicio} al ${semana.fin}`
+);
+
+
+
 
 const API_URL =
   import.meta.env.MODE === "development"

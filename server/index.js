@@ -60,7 +60,6 @@ function guardarNotasSemana(notas) {
 }
 
 
-
 function formatearFecha(fecha) {
   const year = fecha.getFullYear();
   const month = String(fecha.getMonth() + 1).padStart(2, "0");
@@ -193,6 +192,8 @@ function obtenerPrimerDiaDesdeHorario(horarioSugerido) {
 
   return "lunes";
 }
+
+
 
 function sumarDiasAFecha(fechaTexto, dias) {
   const fecha = new Date(`${fechaTexto}T12:00:00`);
