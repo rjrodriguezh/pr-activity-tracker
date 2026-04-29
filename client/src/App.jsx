@@ -23,9 +23,84 @@ import "./App.css";
   };
 }
 
+
+function formatoFechaInput(fecha) {
+  return fecha.toISOString().slice(0, 10);
+}
+
+function generarSemanas2026() {
+  const semanas = [];
+  let fecha = new Date("2026-01-05T12:00:00"); // primer lunes 2026
+
+  while (fecha.getFullYear() === 2026) {
+    const lunes = new Date(fecha);
+    const viernes = new Date(fecha);
+    viernes.setDate(lunes.getDate() + 4);
+
+    semanas.push({
+      inicio: formatoFechaInput(lunes),
+      fin: formatoFechaInput(viernes),
+      label: `${formatoFechaInput(lunes)} al ${formatoFechaInput(viernes)}`,
+    });
+
+    fecha.setDate(fecha.getDate() + 7);
+  }
+
+  return semanas;
+}
+
+
 function App() {
   const archivoInputRef = useRef(null);
   const [backendStatus, setBackendStatus] = useState("Cargando...");
+
+  const semanas2026 = generarSemanas2026();
+  const [semanaSeleccionada, setSemanaSeleccionada] = useState("");
+
+  
+  const cambiarSemanaDesdeCombo = async (e) => {
+  const valor = e.target.value;
+  setSemanaSeleccionada(valor);
+
+  const semana = semanas2026.find((s) => s.inicio === valor);
+  if (!semana) return;
+
+  setSemanaInicio(semana.inicio);
+  setSemanaFin(semana.fin);
+  setDescripcionNota(`Descripción semana ${semana.inicio} al ${semana.fin}`);
+
+  try {
+    const response = await fetch(`${API_URL}/api/actividades`);
+    const data = await response.json();
+
+    const actividadesSemana = data.filter((item) => {
+      return item.fecha >= semana.inicio && item.fecha <= semana.fin;
+    });
+
+    const items = actividadesSemana.map((item) => ({
+      id: item.id,
+      fecha: item.fecha,
+      asignatura: item.asignatura_relacionada,
+      actividad: item.actividad,
+      detalle: item.observaciones,
+      horarioSugerido: item.horario_sugerido
+        ? JSON.parse(item.horario_sugerido)
+        : {},
+      estado: "cargado_bd",
+    }));
+
+    setNotaPreview({
+      semanaInicio: semana.inicio,
+      semanaFin: semana.fin,
+      descripcion: `Semana ${semana.inicio} al ${semana.fin}`,
+      items,
+      archivos: [],
+    });
+  } catch (error) {
+    console.error("Error cargando semana:", error);
+    setMensajeNota("Error cargando actividades de la semana.");
+  }
+};
 
 
 useEffect(() => {
@@ -457,6 +532,20 @@ const obtenerHorarioDia = (item, diaKey) => {
               <button type="button" onClick={enviarMensaje}>Enviar</button>
             </div>
           </section>
+
+
+          <div className="field full">
+            <label>Seleccionar semana 2026</label>
+            <select value={semanaSeleccionada} onChange={cambiarSemanaDesdeCombo}>
+              <option value="">Selecciona una semana</option>
+              {semanas2026.map((semana) => (
+                <option key={semana.inicio} value={semana.inicio}>
+                  {semana.label}
+                </option>
+              ))}
+            </select>
+          </div>
+
         </div>
 
           <section className="card calendar-card">
