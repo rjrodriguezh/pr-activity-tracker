@@ -210,30 +210,11 @@ const API_URL =
     }
   };
 
- const guardarNotaSemana = async (e) => {
+const guardarNotaSemana = async (e) => {
   e.preventDefault();
   setMensajeNota("");
 
-  const archivosSeleccionados = Array.from(archivoInputRef.current?.files || []);
-
-  if (!semanaInicio || !semanaFin) {
-    setMensajeNota("Debes indicar semana desde y semana hasta.");
-    return;
-  }
-
-  if (archivosSeleccionados.length === 0) {
-    setMensajeNota("Debes seleccionar al menos un archivo.");
-    return;
-  }
-
-  const formData = new FormData();
-  formData.append("semanaInicio", semanaInicio);
-  formData.append("semanaFin", semanaFin);
-  formData.append("descripcion", descripcionNota || "");
-
-  archivosSeleccionados.forEach((archivo) => {
-    formData.append("archivos", archivo, archivo.name);
-  });
+  const formData = new FormData(e.currentTarget);
 
   try {
     const response = await fetch(`${API_URL}/api/notas-semana`, {
@@ -338,16 +319,18 @@ const obtenerHorarioDia = (item, diaKey) => {
               <div className="row-fechas">
                 <div>
                   <label>Desde</label>
-                  <input
-                    type="date"
-                    value={semanaInicio}
-                    onChange={(e) => setSemanaInicio(e.target.value)}
-                  />
+                    <input
+                      name="semanaInicio"
+                      type="date"
+                      value={semanaInicio}
+                      onChange={(e) => setSemanaInicio(e.target.value)}
+                    />
                 </div>
 
                 <div>
                   <label>Hasta</label>
                   <input
+                    name="semanaFin"
                     type="date"
                     value={semanaFin}
                     onChange={(e) => setSemanaFin(e.target.value)}
@@ -358,21 +341,20 @@ const obtenerHorarioDia = (item, diaKey) => {
               <div className="field full">
                 <label>Descripción</label>
                 <input
+                  name="descripcion"
                   type="text"
                   value={descripcionNota}
                   onChange={(e) => setDescripcionNota(e.target.value)}
-                  placeholder="Ej: Weekly Bulletin April 27 to May 1"
                 />
               </div>
 
               <div className="field full">
                 <label>Archivos</label>
                 <input
-                  ref={archivoInputRef}
+                  name="archivos"
                   type="file"
                   accept="image/*,.pdf"
                   multiple
-                  onChange={(e) => setArchivosNota(Array.from(e.target.files || []))}
                 />
               </div>
 
