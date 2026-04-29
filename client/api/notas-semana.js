@@ -241,18 +241,33 @@ export default async function handler(req, res) {
     const semanaFin = normalizarTexto(fields.semanaFin);
     const descripcion = normalizarTexto(fields.descripcion);
 
-    const archivos = Array.isArray(files.archivos)
-      ? files.archivos
-      : files.archivos
-      ? [files.archivos]
+    const archivoRecibido =
+      files.archivos ||
+      files.archivo ||
+      files.files ||
+      files.file;
+
+    const archivos = Array.isArray(archivoRecibido)
+      ? archivoRecibido
+      : archivoRecibido
+      ? [archivoRecibido]
       : [];
+
+
+    console.log("FIELDS:", fields);
+    console.log("FILES:", files);
+    console.log("ARCHIVOS DETECTADOS:", archivos.length);
 
     if (!semanaInicio || !semanaFin) {
       return res.status(400).json({ error: "Faltan fechas" });
     }
 
     if (archivos.length === 0) {
-      return res.status(400).json({ error: "Debes adjuntar archivo" });
+      return res.status(400).json({
+        error: "Debes adjuntar archivo",
+        fields,
+        filesKeys: Object.keys(files || {}),
+      });
     }
 
     let textoExtraido = "";
