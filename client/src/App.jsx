@@ -368,7 +368,7 @@ const obtenerHorarioDia = (item, diaKey) => {
                   type="file"
                   accept="image/*,.pdf"
                   multiple
-                  onChange={(e) => setArchivosNota(Array.from(e.target.files))}
+                  onChange={(e) => setArchivosNota(Array.from(e.target.files || []))}
                 />
               </div>
 
