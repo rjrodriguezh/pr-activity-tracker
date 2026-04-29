@@ -44,6 +44,45 @@ function App() {
       };
 
 
+
+      const handleSubmit = async (e) => {
+        e.preventDefault();
+
+        if (!semanaInicio || !semanaFin) {
+          alert("Debes ingresar fechas");
+          return;
+        }
+
+        try {
+          const payload = {
+            semanaInicio,
+            semanaFin,
+            descripcion: descripcionNota || "",
+          };
+
+          const res = await fetch(`${window.location.origin}/api/notas-semana`, {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(payload),
+          });
+
+          if (!res.ok) throw new Error("error backend");
+
+          const data = await res.json();
+
+          console.log("RESPUESTA:", data);
+
+          alert("Guardado en Supabase ✅");
+
+        } catch (error) {
+          console.error(error);
+          alert("Error guardando ❌");
+        }
+      };
+
+
     const detalleATexto = (detalle) => {
       if (!detalle) return "";
 
@@ -288,7 +327,7 @@ const obtenerHorarioDia = (item, diaKey) => {
               <span>Bulletin / imágenes / PDF</span>
             </div>
 
-            <form onSubmit={guardarNotaSemana} className="form-grid">
+            <form onSubmit={handleSubmit} className="form-grid">
               <div className="row-fechas">
                 <div>
                   <label>Desde</label>
