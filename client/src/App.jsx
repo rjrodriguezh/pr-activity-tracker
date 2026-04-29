@@ -107,17 +107,15 @@ function App() {
           .join("");
       };
 
-  useEffect(() => {
-    fetch(`${import.meta.env.VITE_API_URL}/api/health`)
-      .then((res) => res.json())
-      .then((data) => {
-        setBackendStatus(data.status || "sin estado");
-      })
-      .catch((error) => {
-        console.error("Error conectando al backend:", error);
-        setBackendStatus("error");
-      });
-  }, []);
+      useEffect(() => {
+        fetch(`${window.location.origin}/api/health`)
+          .then((res) => {
+            if (!res.ok) throw new Error("error backend");
+            return res.json();
+          })
+          .then(() => setBackendStatus("ok"))
+          .catch(() => setBackendStatus("error"));
+      }, []);
 
   const enviarMensaje = async () => {
     const texto = mensajeChat.trim();
