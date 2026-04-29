@@ -1,7 +1,8 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import "./App.css";
 
 function App() {
+  const archivoInputRef = useRef(null);
   const [backendStatus, setBackendStatus] = useState("Cargando...");
 
   const [semanaInicio, setSemanaInicio] = useState("");
@@ -213,12 +214,14 @@ const API_URL =
   e.preventDefault();
   setMensajeNota("");
 
+  const archivosSeleccionados = Array.from(archivoInputRef.current?.files || []);
+
   if (!semanaInicio || !semanaFin) {
     setMensajeNota("Debes indicar semana desde y semana hasta.");
     return;
   }
 
-  if (!archivosNota || archivosNota.length === 0) {
+  if (archivosSeleccionados.length === 0) {
     setMensajeNota("Debes seleccionar al menos un archivo.");
     return;
   }
@@ -228,8 +231,8 @@ const API_URL =
   formData.append("semanaFin", semanaFin);
   formData.append("descripcion", descripcionNota || "");
 
-  archivosNota.forEach((archivo) => {
-    formData.append("archivos", archivo);
+  archivosSeleccionados.forEach((archivo) => {
+    formData.append("archivos", archivo, archivo.name);
   });
 
   try {
@@ -331,7 +334,7 @@ const obtenerHorarioDia = (item, diaKey) => {
               <span>Bulletin / imágenes / PDF</span>
             </div>
 
-            <form onSubmit={handleSubmit} className="form-grid">
+            <form onSubmit={guardarNotaSemana} className="form-grid">
               <div className="row-fechas">
                 <div>
                   <label>Desde</label>
@@ -365,6 +368,7 @@ const obtenerHorarioDia = (item, diaKey) => {
               <div className="field full">
                 <label>Archivos</label>
                 <input
+                  ref={archivoInputRef}
                   type="file"
                   accept="image/*,.pdf"
                   multiple
