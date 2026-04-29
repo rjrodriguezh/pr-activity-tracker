@@ -1,0 +1,816 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f3f6fb;
+  color: #172033;
+  font-family: Arial, sans-serif;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+}
+
+.app-shell {
+  width: 100%;
+  padding: 20px;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 18px;
+  margin-bottom: 24px;
+}
+
+.app-header h1 {
+  margin: 0 0 6px;
+  font-size: 32px;
+  letter-spacing: -0.5px;
+}
+
+.app-header p {
+  margin: 0;
+  color: #667085;
+}
+
+.status-pill {
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 700;
+  background: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #fecaca;
+}
+
+.status-pill.ok {
+  background: #dcfce7;
+  color: #166534;
+  border-color: #bbf7d0;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(380px, 520px);
+  gap: 24px;
+  align-items: start;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #d9e2ef;
+  border-radius: 18px;
+  padding: 22px;
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.06);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.card-header h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.card-header span {
+  font-size: 13px;
+  color: #667085;
+}
+
+.chat-box {
+  min-height: 420px;
+  max-height: 520px;
+  overflow-y: auto;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 16px;
+  margin-bottom: 14px;
+}
+
+.message-row {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.message-row.left {
+  justify-content: flex-start;
+}
+
+.message-row.right {
+  justify-content: flex-end;
+}
+
+.message-bubble {
+  display: inline-block;
+  max-width: 82%;
+  padding: 11px 14px;
+  border-radius: 16px;
+  line-height: 1.35;
+  font-size: 14px;
+}
+
+.message-bubble.bot {
+  background: #e8edf5;
+  color: #172033;
+  border-bottom-left-radius: 5px;
+}
+
+.message-bubble.usuario {
+  background: #2563eb;
+  color: white;
+  border-bottom-right-radius: 5px;
+}
+
+.chat-input-row {
+  display: flex;
+  gap: 10px;
+}
+
+.chat-input-row input {
+  flex: 1;
+}
+
+input,
+textarea {
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 14px;
+  background: #fff;
+  outline: none;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-weight: 700;
+  cursor: pointer;
+  background: #172033;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.92;
+}
+
+.primary-button {
+  background: #2563eb;
+}
+
+.secondary-button {
+  background: #e2e8f0;
+  color: #172033;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.field.full {
+  grid-column: 1 / -1;
+}
+
+.field label {
+  font-size: 14px;
+  font-weight: 700;
+  color: #334155;
+}
+
+.field small {
+  color: #64748b;
+  font-size: 12px;
+}
+
+.notice {
+  margin: 16px 0 0;
+  padding: 10px 12px;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  color: #1e40af;
+  border-radius: 10px;
+}
+
+.preview-panel {
+  margin-top: 22px;
+  border-top: 1px solid #e2e8f0;
+  padding-top: 18px;
+}
+
+.preview-panel h3 {
+  margin: 18px 0 12px;
+}
+
+.files-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+.file-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 12px;
+  background: #f8fafc;
+}
+
+.file-card p {
+  margin: 0 0 10px;
+}
+
+.file-card img {
+  width: 100%;
+  max-height: 320px;
+  object-fit: contain;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  background: white;
+}
+
+.pdf-label {
+  color: #475569;
+}
+
+.item-card {
+  border: 1px solid #d9e2ef;
+  border-radius: 14px;
+  padding: 14px;
+  margin-bottom: 14px;
+  background: #ffffff;
+}
+
+.item-card h4 {
+  margin: 0 0 12px;
+}
+
+.item-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.item-grid textarea {
+  grid-column: 1 / -1;
+}
+
+.actions-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+@media (max-width: 900px) {
+  .app-shell {
+    padding: 18px;
+  }
+
+  .app-header {
+    flex-direction: column;
+  }
+
+  .main-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-grid,
+  .item-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .chat-box {
+    min-height: 300px;
+  }
+}
+
+.files-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.file-card {
+  width: 120px;
+  padding: 8px;
+  border: 1px solid #d9e2ef;
+  border-radius: 12px;
+  background: #f8fafc;
+}
+
+.file-card p {
+  font-size: 11px;
+  margin: 0 0 6px;
+  word-break: break-word;
+}
+
+.thumb-img {
+  width: 100%;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  background: white;
+}
+
+
+.clean-item-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+.clean-item-grid textarea {
+  min-height: 80px;
+}
+
+.item-card h4 {
+  color: #2563eb;
+}
+
+
+.item-meta {
+  margin: 6px 0;
+  font-size: 13px;
+  color: #334155;
+}
+
+.item-textarea {
+  width: 100%;
+  min-height: 120px;
+  margin-top: 10px;
+  line-height: 1.4;
+}
+
+.item-meta-title {
+  margin: 12px 0 8px;
+  font-size: 13px;
+  color: #334155;
+}
+
+.schedule-table {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 6px;
+  margin: 8px 0 14px;
+}
+
+.schedule-cell {
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #f8fafc;
+  text-align: center;
+}
+
+.schedule-day {
+  background: #2563eb;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 6px 4px;
+}
+
+.schedule-hour {
+  min-height: 38px;
+  padding: 8px 4px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #172033;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-textarea {
+  font-size: 13px;
+  line-height: 1.45;
+  min-height: 120px;
+  background: #ffffff;
+}
+
+
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 320px 1fr; /* izquierda fija, derecha crece */
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "left calendario"
+    "left calendario";
+  gap: 20px;
+  align-items: start;
+}
+
+.week-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 14px;
+}
+
+.day-card {
+  min-height: 650px;
+}
+
+.day-header {
+  background: #2563eb;
+  color: white;
+  font-size: 22px;
+  font-weight: 800;
+  text-align: center;
+  padding: 12px;
+}
+
+.day-body {
+  padding: 14px;
+  min-height: 590px;
+}
+
+.calendar-item {
+  padding: 14px;
+  margin-bottom: 14px;
+  border-radius: 14px;
+}
+
+.calendar-item-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.calendar-item-top strong {
+  font-size: 16px;
+  color: #1d4ed8;
+}
+
+.calendar-item-top span {
+  font-size: 12px;
+  font-weight: 800;
+  color: #334155;
+  white-space: nowrap;
+}
+
+.calendar-item strong {
+  display: block;
+  color: #1d4ed8;
+  margin-bottom: 4px;
+}
+
+.calendar-item span {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  color: #334155;
+  margin-bottom: 8px;
+}
+
+.calendar-item textarea {
+  min-height: 150px;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.empty-day {
+  color: #94a3b8;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.files-mini {
+  margin-top: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.mini-file-card {
+  width: 120px;
+  border: 1px solid #d9e2ef;
+  border-radius: 12px;
+  padding: 8px;
+  background: #f8fafc;
+  font-size: 11px;
+}
+
+.mini-file-card img {
+  width: 100%;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 6px;
+}
+
+.empty-panel {
+  min-height: 260px;
+  color: #64748b;
+}
+
+@media (max-width: 1000px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .week-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.upload-card {
+  grid-area: form;
+}
+
+.calendar-card {
+  grid-area: calendario;
+  width: 100%;
+  min-height: 760px;
+}
+
+.chat-card {
+  grid-area: chat;
+}
+
+.empty-panel {
+  display: none; /* lo escondemos, no aporta ahora */
+}
+
+
+.calendar-card {
+  width: 100%;
+}
+
+.week-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(170px, 1fr));
+  gap: 18px;
+}
+
+
+.chat-card {
+  height: 100%;
+}
+
+.chat-box {
+  min-height: 260px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+
+.item-detalle {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.item-detalle p {
+  margin: 6px 0;
+}
+
+.item-detalle strong {
+  color: #1e40af;
+}
+
+.left-column {
+  grid-area: left;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: sticky;
+  top: 20px;
+}
+
+.calendar-card {
+  grid-area: calendario;
+  width: 100%;
+}
+
+.week-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(200px, 1fr));
+  gap: 18px;
+}
+
+
+.compact-item {
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid #d9e2ef;
+  border-radius: 0;
+  background: transparent;
+  margin-bottom: 8px;
+}
+
+.compact-title {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.compact-title strong {
+  color: #1d4ed8;
+  font-size: 14px;
+}
+
+.compact-title span {
+  font-size: 12px;
+  font-weight: 700;
+  color: #111827;
+  white-space: nowrap;
+}
+
+.compact-detail {
+  font-size: 12px;
+  line-height: 1.35;
+  color: #111827;
+}
+
+.compact-detail strong {
+  color: #1d4ed8;
+  font-weight: 800;
+}
+
+.detalle-texto {
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+
+/* Asignatura */
+.compact-title strong {
+  color: #1d4ed8; /* azul fuerte */
+  font-size: 14px;
+}
+
+/* Subtítulos */
+.compact-detail .label {
+  color: #38bdf8;
+  font-weight: 700;
+}
+
+
+.detail-line {
+  margin-bottom: 6px;
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+.detail-label {
+  color: #38bdf8 !important;
+  font-weight: 800;
+  display: inline !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.compact-detail .label {
+  display: inline !important;
+}
+
+.detalle-texto strong,
+.compact-detail strong {
+  display: inline !important;
+}
+
+
+.week-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0;
+  border-left: 1px solid #d9e2ef;
+  border-top: 1px solid #d9e2ef;
+}
+
+.day-card {
+  border-right: 1px solid #d9e2ef;
+  border-bottom: 1px solid #d9e2ef;
+  border-radius: 0;
+  background: #ffffff;
+  min-height: 650px;
+}
+
+.day-header {
+  background: #2563eb;
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+  text-align: center;
+  padding: 10px 8px;
+  letter-spacing: 0.5px;
+}
+
+.day-header span {
+  display: block;
+  margin-top: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+/* Inputs generales más compactos */
+.upload-card input,
+.upload-card textarea,
+.upload-card select {
+  padding: 6px 8px;
+  font-size: 13px;
+  border-radius: 8px;
+}
+
+/* Fechas más pequeñas */
+.upload-card input[type="date"] {
+  width: 140px;
+}
+
+/* Descripción más compacta */
+.upload-card input[type="text"] {
+  height: 32px;
+}
+
+/* Archivo input más chico */
+.upload-card input[type="file"] {
+  font-size: 12px;
+}
+
+
+.row-fechas {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.row-fechas div {
+  display: flex;
+  flex-direction: column;
+}
+
+.upload-card button {
+  padding: 8px 10px;
+  font-size: 13px;
+  border-radius: 10px;
+}
+
+
+.upload-card .field.full input[type="text"] {
+  max-width: 220px;
+}
+
+.upload-card input[type="file"] {
+  max-width: 220px;
+}
+
+.upload-card .primary-button {
+  max-width: 180px;
+  padding: 7px 10px;
+  font-size: 12px;
+}
+
+.upload-card .notice {
+  max-width: 220px;
+  padding: 8px 10px;
+  font-size: 12px;
+}
+
+.row-fechas input[type="date"] {
+  width: 115px;
+  font-size: 12px;
+  padding: 5px 6px;
+}
+
+.upload-card {
+  max-width: 280px;
+}

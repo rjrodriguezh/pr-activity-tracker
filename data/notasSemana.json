@@ -1,0 +1,1526 @@
+[
+  {
+    "id": 1777321030962,
+    "semanaInicio": "2026-04-27",
+    "semanaFin": "2026-05-03",
+    "descripcion": "dadd",
+    "estado": "borrador",
+    "archivos": [
+      {
+        "filename": "1777321030956-9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "originalName": "9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "mimeType": "image/png",
+        "size": 143418
+      },
+      {
+        "filename": "1777321030959-a6ed73c9-3181-4443-8d00-edc18f96fe77.png",
+        "originalName": "a6ed73c9-3181-4443-8d00-edc18f96fe77.png",
+        "mimeType": "image/png",
+        "size": 431166
+      }
+    ],
+    "items": [
+      {
+        "id": 1,
+        "fecha": "2026-04-27",
+        "asignatura": "",
+        "titulo": "Item detectado pendiente de revisión",
+        "materiales": "",
+        "observaciones": "Completar o corregir manualmente",
+        "estado": "pendiente_revision"
+      }
+    ],
+    "fechaCarga": "2026-04-27T20:17:10.962Z"
+  },
+  {
+    "id": 1777324400082,
+    "semanaInicio": "2026-04-27",
+    "semanaFin": "2026-05-03",
+    "descripcion": "sddd",
+    "estado": "borrador",
+    "archivos": [
+      {
+        "filename": "1777324400079-9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "originalName": "9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "mimeType": "image/png",
+        "size": 143418
+      },
+      {
+        "filename": "1777324400080-a6ed73c9-3181-4443-8d00-edc18f96fe77.png",
+        "originalName": "a6ed73c9-3181-4443-8d00-edc18f96fe77.png",
+        "mimeType": "image/png",
+        "size": 431166
+      }
+    ],
+    "items": [
+      {
+        "id": 1,
+        "fecha": "2026-04-27",
+        "asignatura": "",
+        "titulo": "Item detectado pendiente de revisión",
+        "materiales": "",
+        "observaciones": "Completar o corregir manualmente",
+        "estado": "pendiente_revision"
+      }
+    ],
+    "fechaCarga": "2026-04-27T21:13:20.082Z"
+  },
+  {
+    "id": 1777324689581,
+    "semanaInicio": "2026-04-27",
+    "semanaFin": "2026-05-03",
+    "descripcion": "sddd",
+    "estado": "borrador",
+    "archivos": [
+      {
+        "filename": "1777324689577-9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "originalName": "9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "mimeType": "image/png",
+        "size": 143418
+      },
+      {
+        "filename": "1777324689579-a6ed73c9-3181-4443-8d00-edc18f96fe77.png",
+        "originalName": "a6ed73c9-3181-4443-8d00-edc18f96fe77.png",
+        "mimeType": "image/png",
+        "size": 431166
+      }
+    ],
+    "items": [
+      {
+        "id": 1777324708305,
+        "fecha": "2026-04-27",
+        "asignatura": "Lenguaje",
+        "titulo": "Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.",
+        "materiales": "Libro Valientes, Libro senda, Ticket de salida del libro Valientes.",
+        "observaciones": "",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777324708306,
+        "fecha": "2026-04-27",
+        "asignatura": "Math",
+        "titulo": "",
+        "materiales": "",
+        "observaciones": "",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777324708307,
+        "fecha": "2026-04-27",
+        "asignatura": "Math",
+        "titulo": "",
+        "materiales": "N/A",
+        "observaciones": "Evaluaciones: N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777324708308,
+        "fecha": "2026-04-27",
+        "asignatura": "English",
+        "titulo": "Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.",
+        "materiales": "Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.",
+        "observaciones": "Evaluaciones:Unit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777324708309,
+        "fecha": "2026-04-27",
+        "asignatura": "Science & Society",
+        "titulo": "Geography and Chilean Landscapes",
+        "materiales": "En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).",
+        "observaciones": "Evaluaciones:N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777324708310,
+        "fecha": "2026-04-27",
+        "asignatura": "Music",
+        "titulo": "Actividad evaluada \"Mi primera canción\"",
+        "materiales": "",
+        "observaciones": "Evaluaciones:Cada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777324708311,
+        "fecha": "2026-04-27",
+        "asignatura": "Technology",
+        "titulo": "Maquinas simples y compuestas",
+        "materiales": "Plastilinas, palos de helado, lana (1 metro)",
+        "observaciones": "Miss Josefina Urrutia: jurrutiag@cpdv.clWEEKLY BULLETINJUEVES 30 DE ABRILLes recordamos que este día se suspenden todas las actividades extraprogramáticas de la tarde: talleres y after school 1º y 2º básico. Asimismo, recordamos el feriado legal del viernes 01 de mayo (Día del Trabajador)DÍA DEL ESTUDIANTEEl 15 de mayo celebramos a nuestros estudiantes con actividades recreativas y lúdicas durante la jornada escolar. Les solicitamos su colaboración y participación, inscribiendo un stand de juegos entretenidos, que será parte de las actividades de la mañana. Escogeremos a los 7 u 8 primeros stands inscritos, y la comisión les contactara a la brevedad. El link de inscripción está al final de la imagen.Ideas: Tiro al blanco, pintacaritas, fotografía, magia, argollas, creación de pulseras o collares, saltarina, etc.APRIL 27 TO MAY 1CAMPAÑA BE KIND ABRILBe KIND Este mes trabajamos en la importancia de escuchar con empatía y respeto. Es muy importante trabajar esta premisa en casa, a través de acciones que refuercen la comunicación positiva y la resolución de conflictos con diálogo.IMPORTANTELes recordamos la importancia de promover y modelar hábitos de higiene y respeto a diario, pues cuidar los espacios comunes del colegio es una responsabilidad compartida. Entre ellos: tirar la cadena, tirar papeles al basurero, solo utilizar inodoros o urinarios para necesidades físicas, no jugar con agua ni tapar las inodoros con papel, no rayar ni romper mobiliario, cuidar las pertenencias personales y de otros, etc.CONDUCTO REGULARToda inquietud, duda o solicitud debe ser comunicada directamente al equipo de profesores/as jefe (o de asignatura si es un tema académico), quienes derivarán a quien corresponda cuando sea necesario. :selected:",
+        "estado": "pendiente_revision"
+      }
+    ],
+    "fechaCarga": "2026-04-27T21:18:09.581Z",
+    "textoExtraido": "INFORMACIÓN DE CURSO\nLes agradecemos la motivación y compromiso para las distintas actividades realizadas esta semana, los registros fotográficos con fines pedagógicos serán compartidos a la directiva y ellos les harán llegar las imágenes. Les recordamos que dada la ley vigente, nosotras no podemos usar nuestros teléfonos y la unica excepción es cuando se trata de actividades relacionadas al aprendizaje. Aquellos que aun no agendan horarios de entrevistas les pedimos hacerlo a la brevedad.\nINFORMACIÓN ACADÉMICA Y RECURSOS\nGESTIÓN DE PRUEBAS ATRASADAS\nLos estudiantes que se ausenten a evaluaciones sumativas deben quedarse a rendirlas fuera de la jornada escolar, la semana inmediatamente posterior a su ausencia en los siguientes horarios:\n1º y 2º básico: martes de 15:15 a 16:15\nPara este fin, les solicitamos tener en cuenta lo siguiente:\n· La asistencia a clases es obligatoria, por tanto, toda ausencia a evaluaciones debe ser debidamente justificada con certificado médico. No se aceptan otro tipo de justificaciones para las evaluaciones pertinentemente calendarizadas.\n. No se requiere aviso previo para este proceso: se debe considerar que los estudiantes estén preparados para su evaluación la semana posterior a la ausencia y se les retirara de la sala de clases a las 15:15 horas.\n· Las pruebas atrasadas las toman nuestras learning assistants, y no los profesores titulares de la asignatura.\n· La entrega de los estudiantes en proceso de evaluación atrasada los dias señalados, será desde las 16:15 y hasta las 16:30 horas por el portón principal. La puntualidad en el retiro es imprescindible.\n· Si los estudiantes tienen taller extraprogramático o after school los días señalados, se les dirigirá directamente a su actividad curricular al finalizar la evaluación.\n· Revisar pertinentemente el Reglamento de Evaluación y Promoción disponible en nuestra página web: https://cpvprovidencia.cl/politicas-y-reglamentos/ y ser responsables con la asistencia de sus hijos e hijas a cada proceso evaluativo.\nASIGNATURA: LENGUAJE\nContenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.\nSUBJECT: MATH\nContenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A\nSUBJECT: ENGLISH\nContenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4\nSUBJECT: SCIENCE & SOCIETY - IPC Miss Valentina González: vgonzalezr @cpdv.cl Miss Javiera Morales: įmoralesf@cpdv.cl\nContenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A\nSUBJECT: MUSIC - IPC Mister Nicolás Fita: nfitar@cpdv.cl\nContenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.\nSUBJECT: TECHNOLOGY\nMiss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)\n\nWEEKLY BULLETIN\nJUEVES 30 DE ABRIL\nLes recordamos que este día se suspenden todas las actividades extraprogramáticas de la tarde: talleres y after school 1º y 2º básico. Asimismo, recordamos el feriado legal del viernes 01 de mayo (Día del Trabajador)\nDÍA DEL ESTUDIANTE\nEl 15 de mayo celebramos a nuestros estudiantes con actividades recreativas y lúdicas durante la jornada escolar. Les solicitamos su colaboración y participación, inscribiendo un stand de juegos entretenidos, que será parte de las actividades de la mañana. Escogeremos a los 7 u 8 primeros stands inscritos, y la comisión les contactara a la brevedad. El link de inscripción está al final de la imagen.\nIdeas: Tiro al blanco, pintacaritas, fotografía, magia, argollas, creación de pulseras o collares, saltarina, etc.\nAPRIL 27 TO MAY 1\nCAMPAÑA BE KIND ABRIL\nBe KIND Este mes trabajamos en la importancia de escuchar con empatía y respeto. Es muy importante trabajar esta premisa en casa, a través de acciones que refuercen la comunicación positiva y la resolución de conflictos con diálogo.\nIMPORTANTE\nLes recordamos la importancia de promover y modelar hábitos de higiene y respeto a diario, pues cuidar los espacios comunes del colegio es una responsabilidad compartida. Entre ellos: tirar la cadena, tirar papeles al basurero, solo utilizar inodoros o urinarios para necesidades físicas, no jugar con agua ni tapar las inodoros con papel, no rayar ni romper mobiliario, cuidar las pertenencias personales y de otros, etc.\nCONDUCTO REGULAR\nToda inquietud, duda o solicitud debe ser comunicada directamente al equipo de profesores/as jefe (o de asignatura si es un tema académico), quienes derivarán a quien corresponda cuando sea necesario. :selected:"
+  },
+  {
+    "id": 1777325403371,
+    "semanaInicio": "2026-04-27",
+    "semanaFin": "2026-05-03",
+    "descripcion": "ddff",
+    "estado": "borrador",
+    "archivos": [
+      {
+        "filename": "1777325403365-9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "originalName": "9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "mimeType": "image/png",
+        "size": 143418
+      }
+    ],
+    "items": [
+      {
+        "id": 1777325417156,
+        "fecha": "2026-04-27",
+        "asignatura": "Lenguaje",
+        "titulo": "Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.",
+        "materiales": "Libro Valientes, Libro senda, Ticket de salida del libro Valientes.",
+        "observaciones": "",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777325417157,
+        "fecha": "2026-04-27",
+        "asignatura": "Math",
+        "titulo": "",
+        "materiales": "",
+        "observaciones": "",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777325417158,
+        "fecha": "2026-04-27",
+        "asignatura": "Math",
+        "titulo": "",
+        "materiales": "N/A",
+        "observaciones": "Evaluaciones: N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777325417159,
+        "fecha": "2026-04-27",
+        "asignatura": "English",
+        "titulo": "Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.",
+        "materiales": "Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.",
+        "observaciones": "Evaluaciones:Unit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777325417160,
+        "fecha": "2026-04-27",
+        "asignatura": "Science & Society",
+        "titulo": "Geography and Chilean Landscapes",
+        "materiales": "En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).",
+        "observaciones": "Evaluaciones:N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777325417161,
+        "fecha": "2026-04-27",
+        "asignatura": "Music",
+        "titulo": "Actividad evaluada \"Mi primera canción\"",
+        "materiales": "",
+        "observaciones": "Evaluaciones:Cada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777325417162,
+        "fecha": "2026-04-27",
+        "asignatura": "Technology",
+        "titulo": "Maquinas simples y compuestas",
+        "materiales": "Plastilinas, palos de helado, lana (1 metro)",
+        "observaciones": "Miss Josefina Urrutia: jurrutiag@cpdv.cl",
+        "estado": "pendiente_revision"
+      }
+    ],
+    "fechaCarga": "2026-04-27T21:30:03.371Z",
+    "textoExtraido": "INFORMACIÓN DE CURSO\nLes agradecemos la motivación y compromiso para las distintas actividades realizadas esta semana, los registros fotográficos con fines pedagógicos serán compartidos a la directiva y ellos les harán llegar las imágenes. Les recordamos que dada la ley vigente, nosotras no podemos usar nuestros teléfonos y la unica excepción es cuando se trata de actividades relacionadas al aprendizaje. Aquellos que aun no agendan horarios de entrevistas les pedimos hacerlo a la brevedad.\nINFORMACIÓN ACADÉMICA Y RECURSOS\nGESTIÓN DE PRUEBAS ATRASADAS\nLos estudiantes que se ausenten a evaluaciones sumativas deben quedarse a rendirlas fuera de la jornada escolar, la semana inmediatamente posterior a su ausencia en los siguientes horarios:\n1º y 2º básico: martes de 15:15 a 16:15\nPara este fin, les solicitamos tener en cuenta lo siguiente:\n· La asistencia a clases es obligatoria, por tanto, toda ausencia a evaluaciones debe ser debidamente justificada con certificado médico. No se aceptan otro tipo de justificaciones para las evaluaciones pertinentemente calendarizadas.\n. No se requiere aviso previo para este proceso: se debe considerar que los estudiantes estén preparados para su evaluación la semana posterior a la ausencia y se les retirara de la sala de clases a las 15:15 horas.\n· Las pruebas atrasadas las toman nuestras learning assistants, y no los profesores titulares de la asignatura.\n· La entrega de los estudiantes en proceso de evaluación atrasada los dias señalados, será desde las 16:15 y hasta las 16:30 horas por el portón principal. La puntualidad en el retiro es imprescindible.\n· Si los estudiantes tienen taller extraprogramático o after school los días señalados, se les dirigirá directamente a su actividad curricular al finalizar la evaluación.\n· Revisar pertinentemente el Reglamento de Evaluación y Promoción disponible en nuestra página web: https://cpvprovidencia.cl/politicas-y-reglamentos/ y ser responsables con la asistencia de sus hijos e hijas a cada proceso evaluativo.\nASIGNATURA: LENGUAJE\nContenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.\nSUBJECT: MATH\nContenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A\nSUBJECT: ENGLISH\nContenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4\nSUBJECT: SCIENCE & SOCIETY - IPC Miss Valentina González: vgonzalezr @cpdv.cl Miss Javiera Morales: įmoralesf@cpdv.cl\nContenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A\nSUBJECT: MUSIC - IPC Mister Nicolás Fita: nfitar@cpdv.cl\nContenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.\nSUBJECT: TECHNOLOGY\nMiss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)"
+  },
+  {
+    "id": 1777325952669,
+    "semanaInicio": "2026-04-27",
+    "semanaFin": "2026-05-03",
+    "descripcion": "cdd",
+    "estado": "borrador",
+    "archivos": [
+      {
+        "filename": "1777325952666-9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "originalName": "9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "mimeType": "image/png",
+        "size": 143418
+      }
+    ],
+    "items": [
+      {
+        "id": 1777325965636,
+        "fecha": "2026-04-27",
+        "asignatura": "Lenguaje",
+        "titulo": "Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.",
+        "materiales": "Libro Valientes, Libro senda, Ticket de salida del libro Valientes.",
+        "observaciones": "",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777325965637,
+        "fecha": "2026-04-27",
+        "asignatura": "Math",
+        "titulo": "",
+        "materiales": "",
+        "observaciones": "",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777325965638,
+        "fecha": "2026-04-27",
+        "asignatura": "Math",
+        "titulo": "",
+        "materiales": "N/A",
+        "observaciones": "Evaluaciones: N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777325965639,
+        "fecha": "2026-04-27",
+        "asignatura": "English",
+        "titulo": "Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.",
+        "materiales": "Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.",
+        "observaciones": "Evaluaciones:Unit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777325965640,
+        "fecha": "2026-04-27",
+        "asignatura": "Science & Society",
+        "titulo": "Geography and Chilean Landscapes",
+        "materiales": "En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).",
+        "observaciones": "Evaluaciones:N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777325965641,
+        "fecha": "2026-04-27",
+        "asignatura": "Music",
+        "titulo": "Actividad evaluada \"Mi primera canción\"",
+        "materiales": "",
+        "observaciones": "Evaluaciones:Cada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777325965642,
+        "fecha": "2026-04-27",
+        "asignatura": "Technology",
+        "titulo": "Maquinas simples y compuestas",
+        "materiales": "Plastilinas, palos de helado, lana (1 metro)",
+        "observaciones": "Miss Josefina Urrutia: jurrutiag@cpdv.cl",
+        "estado": "pendiente_revision"
+      }
+    ],
+    "fechaCarga": "2026-04-27T21:39:12.669Z",
+    "textoExtraido": "INFORMACIÓN DE CURSO\nLes agradecemos la motivación y compromiso para las distintas actividades realizadas esta semana, los registros fotográficos con fines pedagógicos serán compartidos a la directiva y ellos les harán llegar las imágenes. Les recordamos que dada la ley vigente, nosotras no podemos usar nuestros teléfonos y la unica excepción es cuando se trata de actividades relacionadas al aprendizaje. Aquellos que aun no agendan horarios de entrevistas les pedimos hacerlo a la brevedad.\nINFORMACIÓN ACADÉMICA Y RECURSOS\nGESTIÓN DE PRUEBAS ATRASADAS\nLos estudiantes que se ausenten a evaluaciones sumativas deben quedarse a rendirlas fuera de la jornada escolar, la semana inmediatamente posterior a su ausencia en los siguientes horarios:\n1º y 2º básico: martes de 15:15 a 16:15\nPara este fin, les solicitamos tener en cuenta lo siguiente:\n· La asistencia a clases es obligatoria, por tanto, toda ausencia a evaluaciones debe ser debidamente justificada con certificado médico. No se aceptan otro tipo de justificaciones para las evaluaciones pertinentemente calendarizadas.\n. No se requiere aviso previo para este proceso: se debe considerar que los estudiantes estén preparados para su evaluación la semana posterior a la ausencia y se les retirara de la sala de clases a las 15:15 horas.\n· Las pruebas atrasadas las toman nuestras learning assistants, y no los profesores titulares de la asignatura.\n· La entrega de los estudiantes en proceso de evaluación atrasada los dias señalados, será desde las 16:15 y hasta las 16:30 horas por el portón principal. La puntualidad en el retiro es imprescindible.\n· Si los estudiantes tienen taller extraprogramático o after school los días señalados, se les dirigirá directamente a su actividad curricular al finalizar la evaluación.\n· Revisar pertinentemente el Reglamento de Evaluación y Promoción disponible en nuestra página web: https://cpvprovidencia.cl/politicas-y-reglamentos/ y ser responsables con la asistencia de sus hijos e hijas a cada proceso evaluativo.\nASIGNATURA: LENGUAJE\nContenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.\nSUBJECT: MATH\nContenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A\nSUBJECT: ENGLISH\nContenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4\nSUBJECT: SCIENCE & SOCIETY - IPC Miss Valentina González: vgonzalezr @cpdv.cl Miss Javiera Morales: įmoralesf@cpdv.cl\nContenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A\nSUBJECT: MUSIC - IPC Mister Nicolás Fita: nfitar@cpdv.cl\nContenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.\nSUBJECT: TECHNOLOGY\nMiss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)"
+  },
+  {
+    "id": 1777326240026,
+    "semanaInicio": "2026-04-27",
+    "semanaFin": "2026-05-03",
+    "descripcion": "fff",
+    "estado": "borrador",
+    "archivos": [
+      {
+        "filename": "1777326240021-9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "originalName": "9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "mimeType": "image/png",
+        "size": 143418
+      }
+    ],
+    "items": [
+      {
+        "id": 1777326253983,
+        "fecha": "2026-04-27",
+        "asignatura": "Lenguaje",
+        "horarioSugerido": "martes: 10:30-11:15 | martes: 11:15-12:00 | miercoles: 08:00-08:45 | miercoles: 08:45-09:30 | jueves: 08:00-08:45 | jueves: 08:45-09:30 | viernes: 08:00-08:45 | viernes: 08:45-09:30",
+        "detalle": "Contenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777326253994,
+        "fecha": "2026-04-27",
+        "asignatura": "Math",
+        "horarioSugerido": "lunes: 08:00-08:45 | lunes: 08:45-09:30 | martes: 08:00-08:45 | martes: 08:45-09:30 | miercoles: 14:30-15:15 | viernes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777326253995,
+        "fecha": "2026-04-27",
+        "asignatura": "English",
+        "horarioSugerido": "lunes: 10:30-11:15 | lunes: 11:15-12:00 | miercoles: 12:45-13:30 | miercoles: 13:30-14:15 | jueves: 09:30-10:15 | viernes: 12:45-13:30 | viernes: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777326253996,
+        "fecha": "2026-04-27",
+        "asignatura": "Science & Society",
+        "horarioSugerido": "lunes: 09:30-10:15 | martes: 09:30-10:15 | miercoles: 10:30-11:15 | miercoles: 11:15-12:00 | jueves: 12:45-13:30 | jueves: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777326253998,
+        "fecha": "2026-04-27",
+        "asignatura": "Music",
+        "horarioSugerido": "martes: 13:30-14:15 | martes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777326253999,
+        "fecha": "2026-04-27",
+        "asignatura": "Technology",
+        "horarioSugerido": "lunes: 12:45-13:30 | lunes: 13:30-14:15",
+        "detalle": "Miss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)",
+        "estado": "pendiente_revision"
+      }
+    ],
+    "fechaCarga": "2026-04-27T21:44:00.026Z",
+    "textoExtraido": "INFORMACIÓN DE CURSO\nLes agradecemos la motivación y compromiso para las distintas actividades realizadas esta semana, los registros fotográficos con fines pedagógicos serán compartidos a la directiva y ellos les harán llegar las imágenes. Les recordamos que dada la ley vigente, nosotras no podemos usar nuestros teléfonos y la unica excepción es cuando se trata de actividades relacionadas al aprendizaje. Aquellos que aun no agendan horarios de entrevistas les pedimos hacerlo a la brevedad.\nINFORMACIÓN ACADÉMICA Y RECURSOS\nGESTIÓN DE PRUEBAS ATRASADAS\nLos estudiantes que se ausenten a evaluaciones sumativas deben quedarse a rendirlas fuera de la jornada escolar, la semana inmediatamente posterior a su ausencia en los siguientes horarios:\n1º y 2º básico: martes de 15:15 a 16:15\nPara este fin, les solicitamos tener en cuenta lo siguiente:\n· La asistencia a clases es obligatoria, por tanto, toda ausencia a evaluaciones debe ser debidamente justificada con certificado médico. No se aceptan otro tipo de justificaciones para las evaluaciones pertinentemente calendarizadas.\n. No se requiere aviso previo para este proceso: se debe considerar que los estudiantes estén preparados para su evaluación la semana posterior a la ausencia y se les retirara de la sala de clases a las 15:15 horas.\n· Las pruebas atrasadas las toman nuestras learning assistants, y no los profesores titulares de la asignatura.\n· La entrega de los estudiantes en proceso de evaluación atrasada los dias señalados, será desde las 16:15 y hasta las 16:30 horas por el portón principal. La puntualidad en el retiro es imprescindible.\n· Si los estudiantes tienen taller extraprogramático o after school los días señalados, se les dirigirá directamente a su actividad curricular al finalizar la evaluación.\n· Revisar pertinentemente el Reglamento de Evaluación y Promoción disponible en nuestra página web: https://cpvprovidencia.cl/politicas-y-reglamentos/ y ser responsables con la asistencia de sus hijos e hijas a cada proceso evaluativo.\nASIGNATURA: LENGUAJE\nContenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.\nSUBJECT: MATH\nContenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A\nSUBJECT: ENGLISH\nContenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4\nSUBJECT: SCIENCE & SOCIETY - IPC Miss Valentina González: vgonzalezr @cpdv.cl Miss Javiera Morales: įmoralesf@cpdv.cl\nContenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A\nSUBJECT: MUSIC - IPC Mister Nicolás Fita: nfitar@cpdv.cl\nContenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.\nSUBJECT: TECHNOLOGY\nMiss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)"
+  },
+  {
+    "id": 1777326778619,
+    "semanaInicio": "2026-04-27",
+    "semanaFin": "2026-05-03",
+    "descripcion": "fff",
+    "estado": "borrador",
+    "archivos": [
+      {
+        "filename": "1777326778614-9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "originalName": "9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "mimeType": "image/png",
+        "size": 143418
+      }
+    ],
+    "items": [
+      {
+        "id": 1777326791681,
+        "fecha": "2026-04-27",
+        "asignatura": "Lenguaje",
+        "horarioSugerido": "martes: 10:30-11:15 | martes: 11:15-12:00 | miercoles: 08:00-08:45 | miercoles: 08:45-09:30 | jueves: 08:00-08:45 | jueves: 08:45-09:30 | viernes: 08:00-08:45 | viernes: 08:45-09:30",
+        "detalle": "Contenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777326791683,
+        "fecha": "2026-04-27",
+        "asignatura": "Math",
+        "horarioSugerido": "lunes: 08:00-08:45 | lunes: 08:45-09:30 | martes: 08:00-08:45 | martes: 08:45-09:30 | miercoles: 14:30-15:15 | viernes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777326791684,
+        "fecha": "2026-04-27",
+        "asignatura": "English",
+        "horarioSugerido": "lunes: 10:30-11:15 | lunes: 11:15-12:00 | miercoles: 12:45-13:30 | miercoles: 13:30-14:15 | jueves: 09:30-10:15 | viernes: 12:45-13:30 | viernes: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777326791686,
+        "fecha": "2026-04-27",
+        "asignatura": "Science & Society",
+        "horarioSugerido": "lunes: 09:30-10:15 | martes: 09:30-10:15 | miercoles: 10:30-11:15 | miercoles: 11:15-12:00 | jueves: 12:45-13:30 | jueves: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777326791687,
+        "fecha": "2026-04-27",
+        "asignatura": "Music",
+        "horarioSugerido": "martes: 13:30-14:15 | martes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777326791689,
+        "fecha": "2026-04-27",
+        "asignatura": "Technology",
+        "horarioSugerido": "lunes: 12:45-13:30 | lunes: 13:30-14:15",
+        "detalle": "Miss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)",
+        "estado": "pendiente_revision"
+      }
+    ],
+    "fechaCarga": "2026-04-27T21:52:58.619Z",
+    "textoExtraido": "INFORMACIÓN DE CURSO\nLes agradecemos la motivación y compromiso para las distintas actividades realizadas esta semana, los registros fotográficos con fines pedagógicos serán compartidos a la directiva y ellos les harán llegar las imágenes. Les recordamos que dada la ley vigente, nosotras no podemos usar nuestros teléfonos y la unica excepción es cuando se trata de actividades relacionadas al aprendizaje. Aquellos que aun no agendan horarios de entrevistas les pedimos hacerlo a la brevedad.\nINFORMACIÓN ACADÉMICA Y RECURSOS\nGESTIÓN DE PRUEBAS ATRASADAS\nLos estudiantes que se ausenten a evaluaciones sumativas deben quedarse a rendirlas fuera de la jornada escolar, la semana inmediatamente posterior a su ausencia en los siguientes horarios:\n1º y 2º básico: martes de 15:15 a 16:15\nPara este fin, les solicitamos tener en cuenta lo siguiente:\n· La asistencia a clases es obligatoria, por tanto, toda ausencia a evaluaciones debe ser debidamente justificada con certificado médico. No se aceptan otro tipo de justificaciones para las evaluaciones pertinentemente calendarizadas.\n. No se requiere aviso previo para este proceso: se debe considerar que los estudiantes estén preparados para su evaluación la semana posterior a la ausencia y se les retirara de la sala de clases a las 15:15 horas.\n· Las pruebas atrasadas las toman nuestras learning assistants, y no los profesores titulares de la asignatura.\n· La entrega de los estudiantes en proceso de evaluación atrasada los dias señalados, será desde las 16:15 y hasta las 16:30 horas por el portón principal. La puntualidad en el retiro es imprescindible.\n· Si los estudiantes tienen taller extraprogramático o after school los días señalados, se les dirigirá directamente a su actividad curricular al finalizar la evaluación.\n· Revisar pertinentemente el Reglamento de Evaluación y Promoción disponible en nuestra página web: https://cpvprovidencia.cl/politicas-y-reglamentos/ y ser responsables con la asistencia de sus hijos e hijas a cada proceso evaluativo.\nASIGNATURA: LENGUAJE\nContenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.\nSUBJECT: MATH\nContenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A\nSUBJECT: ENGLISH\nContenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4\nSUBJECT: SCIENCE & SOCIETY - IPC Miss Valentina González: vgonzalezr @cpdv.cl Miss Javiera Morales: įmoralesf@cpdv.cl\nContenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A\nSUBJECT: MUSIC - IPC Mister Nicolás Fita: nfitar@cpdv.cl\nContenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.\nSUBJECT: TECHNOLOGY\nMiss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)"
+  },
+  {
+    "id": 1777327679572,
+    "semanaInicio": "2026-04-27",
+    "semanaFin": "2026-05-03",
+    "descripcion": "fsfss",
+    "estado": "borrador",
+    "archivos": [
+      {
+        "filename": "1777327679567-9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "originalName": "9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "mimeType": "image/png",
+        "size": 143418
+      }
+    ],
+    "items": [
+      {
+        "id": 1777327693418,
+        "fecha": "2026-04-27",
+        "asignatura": "Lenguaje",
+        "horarioSugerido": "martes: 10:30-11:15 | martes: 11:15-12:00 | miercoles: 08:00-08:45 | miercoles: 08:45-09:30 | jueves: 08:00-08:45 | jueves: 08:45-09:30 | viernes: 08:00-08:45 | viernes: 08:45-09:30",
+        "detalle": "Contenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777327693420,
+        "fecha": "2026-04-27",
+        "asignatura": "Math",
+        "horarioSugerido": "lunes: 08:00-08:45 | lunes: 08:45-09:30 | martes: 08:00-08:45 | martes: 08:45-09:30 | miercoles: 14:30-15:15 | viernes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777327693421,
+        "fecha": "2026-04-27",
+        "asignatura": "English",
+        "horarioSugerido": "lunes: 10:30-11:15 | lunes: 11:15-12:00 | miercoles: 12:45-13:30 | miercoles: 13:30-14:15 | jueves: 09:30-10:15 | viernes: 12:45-13:30 | viernes: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777327693422,
+        "fecha": "2026-04-27",
+        "asignatura": "Science & Society",
+        "horarioSugerido": "lunes: 09:30-10:15 | martes: 09:30-10:15 | miercoles: 10:30-11:15 | miercoles: 11:15-12:00 | jueves: 12:45-13:30 | jueves: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777327693424,
+        "fecha": "2026-04-27",
+        "asignatura": "Music",
+        "horarioSugerido": "martes: 13:30-14:15 | martes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777327693425,
+        "fecha": "2026-04-27",
+        "asignatura": "Technology",
+        "horarioSugerido": "lunes: 12:45-13:30 | lunes: 13:30-14:15",
+        "detalle": "Miss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)",
+        "estado": "pendiente_revision"
+      }
+    ],
+    "fechaCarga": "2026-04-27T22:07:59.572Z",
+    "textoExtraido": "INFORMACIÓN DE CURSO\nLes agradecemos la motivación y compromiso para las distintas actividades realizadas esta semana, los registros fotográficos con fines pedagógicos serán compartidos a la directiva y ellos les harán llegar las imágenes. Les recordamos que dada la ley vigente, nosotras no podemos usar nuestros teléfonos y la unica excepción es cuando se trata de actividades relacionadas al aprendizaje. Aquellos que aun no agendan horarios de entrevistas les pedimos hacerlo a la brevedad.\nINFORMACIÓN ACADÉMICA Y RECURSOS\nGESTIÓN DE PRUEBAS ATRASADAS\nLos estudiantes que se ausenten a evaluaciones sumativas deben quedarse a rendirlas fuera de la jornada escolar, la semana inmediatamente posterior a su ausencia en los siguientes horarios:\n1º y 2º básico: martes de 15:15 a 16:15\nPara este fin, les solicitamos tener en cuenta lo siguiente:\n· La asistencia a clases es obligatoria, por tanto, toda ausencia a evaluaciones debe ser debidamente justificada con certificado médico. No se aceptan otro tipo de justificaciones para las evaluaciones pertinentemente calendarizadas.\n. No se requiere aviso previo para este proceso: se debe considerar que los estudiantes estén preparados para su evaluación la semana posterior a la ausencia y se les retirara de la sala de clases a las 15:15 horas.\n· Las pruebas atrasadas las toman nuestras learning assistants, y no los profesores titulares de la asignatura.\n· La entrega de los estudiantes en proceso de evaluación atrasada los dias señalados, será desde las 16:15 y hasta las 16:30 horas por el portón principal. La puntualidad en el retiro es imprescindible.\n· Si los estudiantes tienen taller extraprogramático o after school los días señalados, se les dirigirá directamente a su actividad curricular al finalizar la evaluación.\n· Revisar pertinentemente el Reglamento de Evaluación y Promoción disponible en nuestra página web: https://cpvprovidencia.cl/politicas-y-reglamentos/ y ser responsables con la asistencia de sus hijos e hijas a cada proceso evaluativo.\nASIGNATURA: LENGUAJE\nContenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.\nSUBJECT: MATH\nContenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A\nSUBJECT: ENGLISH\nContenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4\nSUBJECT: SCIENCE & SOCIETY - IPC Miss Valentina González: vgonzalezr @cpdv.cl Miss Javiera Morales: įmoralesf@cpdv.cl\nContenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A\nSUBJECT: MUSIC - IPC Mister Nicolás Fita: nfitar@cpdv.cl\nContenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.\nSUBJECT: TECHNOLOGY\nMiss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)"
+  },
+  {
+    "id": 1777335273875,
+    "semanaInicio": "2026-04-27",
+    "semanaFin": "2026-05-03",
+    "descripcion": "sddd",
+    "estado": "borrador",
+    "archivos": [
+      {
+        "filename": "1777335273870-9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "originalName": "9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "mimeType": "image/png",
+        "size": 143418
+      }
+    ],
+    "items": [
+      {
+        "id": 1777335287744,
+        "fecha": "2026-04-27",
+        "asignatura": "Lenguaje",
+        "horarioSugerido": "martes: 10:30-11:15 | martes: 11:15-12:00 | miercoles: 08:00-08:45 | miercoles: 08:45-09:30 | jueves: 08:00-08:45 | jueves: 08:45-09:30 | viernes: 08:00-08:45 | viernes: 08:45-09:30",
+        "detalle": "Contenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777335287746,
+        "fecha": "2026-04-27",
+        "asignatura": "Math",
+        "horarioSugerido": "lunes: 08:00-08:45 | lunes: 08:45-09:30 | martes: 08:00-08:45 | martes: 08:45-09:30 | miercoles: 14:30-15:15 | viernes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777335287747,
+        "fecha": "2026-04-27",
+        "asignatura": "English",
+        "horarioSugerido": "lunes: 10:30-11:15 | lunes: 11:15-12:00 | miercoles: 12:45-13:30 | miercoles: 13:30-14:15 | jueves: 09:30-10:15 | viernes: 12:45-13:30 | viernes: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777335287748,
+        "fecha": "2026-04-27",
+        "asignatura": "Science & Society",
+        "horarioSugerido": "lunes: 09:30-10:15 | martes: 09:30-10:15 | miercoles: 10:30-11:15 | miercoles: 11:15-12:00 | jueves: 12:45-13:30 | jueves: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777335287749,
+        "fecha": "2026-04-27",
+        "asignatura": "Music",
+        "horarioSugerido": "martes: 13:30-14:15 | martes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777335287751,
+        "fecha": "2026-04-27",
+        "asignatura": "Technology",
+        "horarioSugerido": "lunes: 12:45-13:30 | lunes: 13:30-14:15",
+        "detalle": "Miss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)",
+        "estado": "pendiente_revision"
+      }
+    ],
+    "fechaCarga": "2026-04-28T00:14:33.875Z",
+    "textoExtraido": "INFORMACIÓN DE CURSO\nLes agradecemos la motivación y compromiso para las distintas actividades realizadas esta semana, los registros fotográficos con fines pedagógicos serán compartidos a la directiva y ellos les harán llegar las imágenes. Les recordamos que dada la ley vigente, nosotras no podemos usar nuestros teléfonos y la unica excepción es cuando se trata de actividades relacionadas al aprendizaje. Aquellos que aun no agendan horarios de entrevistas les pedimos hacerlo a la brevedad.\nINFORMACIÓN ACADÉMICA Y RECURSOS\nGESTIÓN DE PRUEBAS ATRASADAS\nLos estudiantes que se ausenten a evaluaciones sumativas deben quedarse a rendirlas fuera de la jornada escolar, la semana inmediatamente posterior a su ausencia en los siguientes horarios:\n1º y 2º básico: martes de 15:15 a 16:15\nPara este fin, les solicitamos tener en cuenta lo siguiente:\n· La asistencia a clases es obligatoria, por tanto, toda ausencia a evaluaciones debe ser debidamente justificada con certificado médico. No se aceptan otro tipo de justificaciones para las evaluaciones pertinentemente calendarizadas.\n. No se requiere aviso previo para este proceso: se debe considerar que los estudiantes estén preparados para su evaluación la semana posterior a la ausencia y se les retirara de la sala de clases a las 15:15 horas.\n· Las pruebas atrasadas las toman nuestras learning assistants, y no los profesores titulares de la asignatura.\n· La entrega de los estudiantes en proceso de evaluación atrasada los dias señalados, será desde las 16:15 y hasta las 16:30 horas por el portón principal. La puntualidad en el retiro es imprescindible.\n· Si los estudiantes tienen taller extraprogramático o after school los días señalados, se les dirigirá directamente a su actividad curricular al finalizar la evaluación.\n· Revisar pertinentemente el Reglamento de Evaluación y Promoción disponible en nuestra página web: https://cpvprovidencia.cl/politicas-y-reglamentos/ y ser responsables con la asistencia de sus hijos e hijas a cada proceso evaluativo.\nASIGNATURA: LENGUAJE\nContenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.\nSUBJECT: MATH\nContenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A\nSUBJECT: ENGLISH\nContenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4\nSUBJECT: SCIENCE & SOCIETY - IPC Miss Valentina González: vgonzalezr @cpdv.cl Miss Javiera Morales: įmoralesf@cpdv.cl\nContenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A\nSUBJECT: MUSIC - IPC Mister Nicolás Fita: nfitar@cpdv.cl\nContenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.\nSUBJECT: TECHNOLOGY\nMiss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)"
+  },
+  {
+    "id": 1777336427296,
+    "semanaInicio": "2026-04-27",
+    "semanaFin": "2026-05-03",
+    "descripcion": "xxx",
+    "estado": "borrador",
+    "archivos": [
+      {
+        "filename": "1777336427292-9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "originalName": "9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "mimeType": "image/png",
+        "size": 143418
+      }
+    ],
+    "items": [
+      {
+        "id": 1777336441066,
+        "fecha": "2026-04-27",
+        "asignatura": "Lenguaje",
+        "horarioSugerido": "martes: 10:30-11:15 | martes: 11:15-12:00 | miercoles: 08:00-08:45 | miercoles: 08:45-09:30 | jueves: 08:00-08:45 | jueves: 08:45-09:30 | viernes: 08:00-08:45 | viernes: 08:45-09:30",
+        "detalle": "Contenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777336441069,
+        "fecha": "2026-04-27",
+        "asignatura": "Math",
+        "horarioSugerido": "lunes: 08:00-08:45 | lunes: 08:45-09:30 | martes: 08:00-08:45 | martes: 08:45-09:30 | miercoles: 14:30-15:15 | viernes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777336441070,
+        "fecha": "2026-04-27",
+        "asignatura": "English",
+        "horarioSugerido": "lunes: 10:30-11:15 | lunes: 11:15-12:00 | miercoles: 12:45-13:30 | miercoles: 13:30-14:15 | jueves: 09:30-10:15 | viernes: 12:45-13:30 | viernes: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777336441072,
+        "fecha": "2026-04-27",
+        "asignatura": "Science & Society",
+        "horarioSugerido": "lunes: 09:30-10:15 | martes: 09:30-10:15 | miercoles: 10:30-11:15 | miercoles: 11:15-12:00 | jueves: 12:45-13:30 | jueves: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777336441073,
+        "fecha": "2026-04-27",
+        "asignatura": "Music",
+        "horarioSugerido": "martes: 13:30-14:15 | martes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777336441075,
+        "fecha": "2026-04-27",
+        "asignatura": "Technology",
+        "horarioSugerido": "lunes: 12:45-13:30 | lunes: 13:30-14:15",
+        "detalle": "Miss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)",
+        "estado": "pendiente_revision"
+      }
+    ],
+    "fechaCarga": "2026-04-28T00:33:47.296Z",
+    "textoExtraido": "INFORMACIÓN DE CURSO\nLes agradecemos la motivación y compromiso para las distintas actividades realizadas esta semana, los registros fotográficos con fines pedagógicos serán compartidos a la directiva y ellos les harán llegar las imágenes. Les recordamos que dada la ley vigente, nosotras no podemos usar nuestros teléfonos y la unica excepción es cuando se trata de actividades relacionadas al aprendizaje. Aquellos que aun no agendan horarios de entrevistas les pedimos hacerlo a la brevedad.\nINFORMACIÓN ACADÉMICA Y RECURSOS\nGESTIÓN DE PRUEBAS ATRASADAS\nLos estudiantes que se ausenten a evaluaciones sumativas deben quedarse a rendirlas fuera de la jornada escolar, la semana inmediatamente posterior a su ausencia en los siguientes horarios:\n1º y 2º básico: martes de 15:15 a 16:15\nPara este fin, les solicitamos tener en cuenta lo siguiente:\n· La asistencia a clases es obligatoria, por tanto, toda ausencia a evaluaciones debe ser debidamente justificada con certificado médico. No se aceptan otro tipo de justificaciones para las evaluaciones pertinentemente calendarizadas.\n. No se requiere aviso previo para este proceso: se debe considerar que los estudiantes estén preparados para su evaluación la semana posterior a la ausencia y se les retirara de la sala de clases a las 15:15 horas.\n· Las pruebas atrasadas las toman nuestras learning assistants, y no los profesores titulares de la asignatura.\n· La entrega de los estudiantes en proceso de evaluación atrasada los dias señalados, será desde las 16:15 y hasta las 16:30 horas por el portón principal. La puntualidad en el retiro es imprescindible.\n· Si los estudiantes tienen taller extraprogramático o after school los días señalados, se les dirigirá directamente a su actividad curricular al finalizar la evaluación.\n· Revisar pertinentemente el Reglamento de Evaluación y Promoción disponible en nuestra página web: https://cpvprovidencia.cl/politicas-y-reglamentos/ y ser responsables con la asistencia de sus hijos e hijas a cada proceso evaluativo.\nASIGNATURA: LENGUAJE\nContenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.\nSUBJECT: MATH\nContenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A\nSUBJECT: ENGLISH\nContenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4\nSUBJECT: SCIENCE & SOCIETY - IPC Miss Valentina González: vgonzalezr @cpdv.cl Miss Javiera Morales: įmoralesf@cpdv.cl\nContenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A\nSUBJECT: MUSIC - IPC Mister Nicolás Fita: nfitar@cpdv.cl\nContenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.\nSUBJECT: TECHNOLOGY\nMiss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)"
+  },
+  {
+    "id": 1777336480362,
+    "semanaInicio": "2026-04-27",
+    "semanaFin": "2026-05-03",
+    "descripcion": "xxx",
+    "estado": "borrador",
+    "archivos": [
+      {
+        "filename": "1777336480358-9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "originalName": "9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "mimeType": "image/png",
+        "size": 143418
+      }
+    ],
+    "items": [
+      {
+        "id": 1777336493430,
+        "fecha": "2026-04-27",
+        "asignatura": "Lenguaje",
+        "horarioSugerido": "martes: 10:30-11:15 | martes: 11:15-12:00 | miercoles: 08:00-08:45 | miercoles: 08:45-09:30 | jueves: 08:00-08:45 | jueves: 08:45-09:30 | viernes: 08:00-08:45 | viernes: 08:45-09:30",
+        "detalle": "Contenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777336493431,
+        "fecha": "2026-04-27",
+        "asignatura": "Math",
+        "horarioSugerido": "lunes: 08:00-08:45 | lunes: 08:45-09:30 | martes: 08:00-08:45 | martes: 08:45-09:30 | miercoles: 14:30-15:15 | viernes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777336493432,
+        "fecha": "2026-04-27",
+        "asignatura": "English",
+        "horarioSugerido": "lunes: 10:30-11:15 | lunes: 11:15-12:00 | miercoles: 12:45-13:30 | miercoles: 13:30-14:15 | jueves: 09:30-10:15 | viernes: 12:45-13:30 | viernes: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777336493433,
+        "fecha": "2026-04-27",
+        "asignatura": "Science & Society",
+        "horarioSugerido": "lunes: 09:30-10:15 | martes: 09:30-10:15 | miercoles: 10:30-11:15 | miercoles: 11:15-12:00 | jueves: 12:45-13:30 | jueves: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777336493435,
+        "fecha": "2026-04-27",
+        "asignatura": "Music",
+        "horarioSugerido": "martes: 13:30-14:15 | martes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777336493445,
+        "fecha": "2026-04-27",
+        "asignatura": "Technology",
+        "horarioSugerido": "lunes: 12:45-13:30 | lunes: 13:30-14:15",
+        "detalle": "Miss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)",
+        "estado": "pendiente_revision"
+      }
+    ],
+    "fechaCarga": "2026-04-28T00:34:40.362Z",
+    "textoExtraido": "INFORMACIÓN DE CURSO\nLes agradecemos la motivación y compromiso para las distintas actividades realizadas esta semana, los registros fotográficos con fines pedagógicos serán compartidos a la directiva y ellos les harán llegar las imágenes. Les recordamos que dada la ley vigente, nosotras no podemos usar nuestros teléfonos y la unica excepción es cuando se trata de actividades relacionadas al aprendizaje. Aquellos que aun no agendan horarios de entrevistas les pedimos hacerlo a la brevedad.\nINFORMACIÓN ACADÉMICA Y RECURSOS\nGESTIÓN DE PRUEBAS ATRASADAS\nLos estudiantes que se ausenten a evaluaciones sumativas deben quedarse a rendirlas fuera de la jornada escolar, la semana inmediatamente posterior a su ausencia en los siguientes horarios:\n1º y 2º básico: martes de 15:15 a 16:15\nPara este fin, les solicitamos tener en cuenta lo siguiente:\n· La asistencia a clases es obligatoria, por tanto, toda ausencia a evaluaciones debe ser debidamente justificada con certificado médico. No se aceptan otro tipo de justificaciones para las evaluaciones pertinentemente calendarizadas.\n. No se requiere aviso previo para este proceso: se debe considerar que los estudiantes estén preparados para su evaluación la semana posterior a la ausencia y se les retirara de la sala de clases a las 15:15 horas.\n· Las pruebas atrasadas las toman nuestras learning assistants, y no los profesores titulares de la asignatura.\n· La entrega de los estudiantes en proceso de evaluación atrasada los dias señalados, será desde las 16:15 y hasta las 16:30 horas por el portón principal. La puntualidad en el retiro es imprescindible.\n· Si los estudiantes tienen taller extraprogramático o after school los días señalados, se les dirigirá directamente a su actividad curricular al finalizar la evaluación.\n· Revisar pertinentemente el Reglamento de Evaluación y Promoción disponible en nuestra página web: https://cpvprovidencia.cl/politicas-y-reglamentos/ y ser responsables con la asistencia de sus hijos e hijas a cada proceso evaluativo.\nASIGNATURA: LENGUAJE\nContenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.\nSUBJECT: MATH\nContenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A\nSUBJECT: ENGLISH\nContenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4\nSUBJECT: SCIENCE & SOCIETY - IPC Miss Valentina González: vgonzalezr @cpdv.cl Miss Javiera Morales: įmoralesf@cpdv.cl\nContenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A\nSUBJECT: MUSIC - IPC Mister Nicolás Fita: nfitar@cpdv.cl\nContenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.\nSUBJECT: TECHNOLOGY\nMiss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)"
+  },
+  {
+    "id": 1777337954941,
+    "semanaInicio": "2026-04-27",
+    "semanaFin": "2026-05-03",
+    "descripcion": "ddd",
+    "estado": "borrador",
+    "archivos": [
+      {
+        "filename": "1777337954934-9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "originalName": "9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "mimeType": "image/png",
+        "size": 143418
+      }
+    ],
+    "items": [
+      {
+        "id": 1777337968808,
+        "fecha": "2026-04-27",
+        "asignatura": "Lenguaje",
+        "horarioSugerido": "martes: 10:30-11:15 | martes: 11:15-12:00 | miercoles: 08:00-08:45 | miercoles: 08:45-09:30 | jueves: 08:00-08:45 | jueves: 08:45-09:30 | viernes: 08:00-08:45 | viernes: 08:45-09:30",
+        "detalle": "Contenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777337968809,
+        "fecha": "2026-04-27",
+        "asignatura": "Math",
+        "horarioSugerido": "lunes: 08:00-08:45 | lunes: 08:45-09:30 | martes: 08:00-08:45 | martes: 08:45-09:30 | miercoles: 14:30-15:15 | viernes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777337968810,
+        "fecha": "2026-04-27",
+        "asignatura": "English",
+        "horarioSugerido": "lunes: 10:30-11:15 | lunes: 11:15-12:00 | miercoles: 12:45-13:30 | miercoles: 13:30-14:15 | jueves: 09:30-10:15 | viernes: 12:45-13:30 | viernes: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777337968812,
+        "fecha": "2026-04-27",
+        "asignatura": "Science & Society",
+        "horarioSugerido": "lunes: 09:30-10:15 | martes: 09:30-10:15 | miercoles: 10:30-11:15 | miercoles: 11:15-12:00 | jueves: 12:45-13:30 | jueves: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777337968813,
+        "fecha": "2026-04-27",
+        "asignatura": "Music",
+        "horarioSugerido": "martes: 13:30-14:15 | martes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777337968814,
+        "fecha": "2026-04-27",
+        "asignatura": "Technology",
+        "horarioSugerido": "lunes: 12:45-13:30 | lunes: 13:30-14:15",
+        "detalle": "Miss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)",
+        "estado": "pendiente_revision"
+      }
+    ],
+    "fechaCarga": "2026-04-28T00:59:14.941Z",
+    "textoExtraido": "INFORMACIÓN DE CURSO\nLes agradecemos la motivación y compromiso para las distintas actividades realizadas esta semana, los registros fotográficos con fines pedagógicos serán compartidos a la directiva y ellos les harán llegar las imágenes. Les recordamos que dada la ley vigente, nosotras no podemos usar nuestros teléfonos y la unica excepción es cuando se trata de actividades relacionadas al aprendizaje. Aquellos que aun no agendan horarios de entrevistas les pedimos hacerlo a la brevedad.\nINFORMACIÓN ACADÉMICA Y RECURSOS\nGESTIÓN DE PRUEBAS ATRASADAS\nLos estudiantes que se ausenten a evaluaciones sumativas deben quedarse a rendirlas fuera de la jornada escolar, la semana inmediatamente posterior a su ausencia en los siguientes horarios:\n1º y 2º básico: martes de 15:15 a 16:15\nPara este fin, les solicitamos tener en cuenta lo siguiente:\n· La asistencia a clases es obligatoria, por tanto, toda ausencia a evaluaciones debe ser debidamente justificada con certificado médico. No se aceptan otro tipo de justificaciones para las evaluaciones pertinentemente calendarizadas.\n. No se requiere aviso previo para este proceso: se debe considerar que los estudiantes estén preparados para su evaluación la semana posterior a la ausencia y se les retirara de la sala de clases a las 15:15 horas.\n· Las pruebas atrasadas las toman nuestras learning assistants, y no los profesores titulares de la asignatura.\n· La entrega de los estudiantes en proceso de evaluación atrasada los dias señalados, será desde las 16:15 y hasta las 16:30 horas por el portón principal. La puntualidad en el retiro es imprescindible.\n· Si los estudiantes tienen taller extraprogramático o after school los días señalados, se les dirigirá directamente a su actividad curricular al finalizar la evaluación.\n· Revisar pertinentemente el Reglamento de Evaluación y Promoción disponible en nuestra página web: https://cpvprovidencia.cl/politicas-y-reglamentos/ y ser responsables con la asistencia de sus hijos e hijas a cada proceso evaluativo.\nASIGNATURA: LENGUAJE\nContenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.\nSUBJECT: MATH\nContenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A\nSUBJECT: ENGLISH\nContenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4\nSUBJECT: SCIENCE & SOCIETY - IPC Miss Valentina González: vgonzalezr @cpdv.cl Miss Javiera Morales: įmoralesf@cpdv.cl\nContenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A\nSUBJECT: MUSIC - IPC Mister Nicolás Fita: nfitar@cpdv.cl\nContenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.\nSUBJECT: TECHNOLOGY\nMiss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)"
+  },
+  {
+    "id": 1777340296212,
+    "semanaInicio": "2026-04-27",
+    "semanaFin": "2026-05-03",
+    "descripcion": "ddd",
+    "estado": "borrador",
+    "archivos": [
+      {
+        "filename": "1777340296200-9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "originalName": "9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "mimeType": "image/png",
+        "size": 143418
+      }
+    ],
+    "items": [
+      {
+        "id": 1777340310133,
+        "fecha": "2026-04-27",
+        "asignatura": "Lenguaje",
+        "horarioSugerido": "martes: 10:30-11:15 | martes: 11:15-12:00 | miercoles: 08:00-08:45 | miercoles: 08:45-09:30 | jueves: 08:00-08:45 | jueves: 08:45-09:30 | viernes: 08:00-08:45 | viernes: 08:45-09:30",
+        "detalle": "Contenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777340310135,
+        "fecha": "2026-04-27",
+        "asignatura": "Math",
+        "horarioSugerido": "lunes: 08:00-08:45 | lunes: 08:45-09:30 | martes: 08:00-08:45 | martes: 08:45-09:30 | miercoles: 14:30-15:15 | viernes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777340310136,
+        "fecha": "2026-04-27",
+        "asignatura": "English",
+        "horarioSugerido": "lunes: 10:30-11:15 | lunes: 11:15-12:00 | miercoles: 12:45-13:30 | miercoles: 13:30-14:15 | jueves: 09:30-10:15 | viernes: 12:45-13:30 | viernes: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777340310137,
+        "fecha": "2026-04-27",
+        "asignatura": "Science & Society",
+        "horarioSugerido": "lunes: 09:30-10:15 | martes: 09:30-10:15 | miercoles: 10:30-11:15 | miercoles: 11:15-12:00 | jueves: 12:45-13:30 | jueves: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777340310138,
+        "fecha": "2026-04-27",
+        "asignatura": "Music",
+        "horarioSugerido": "martes: 13:30-14:15 | martes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777340310139,
+        "fecha": "2026-04-27",
+        "asignatura": "Technology",
+        "horarioSugerido": "lunes: 12:45-13:30 | lunes: 13:30-14:15",
+        "detalle": "Miss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)",
+        "estado": "pendiente_revision"
+      }
+    ],
+    "fechaCarga": "2026-04-28T01:38:16.212Z",
+    "textoExtraido": "INFORMACIÓN DE CURSO\nLes agradecemos la motivación y compromiso para las distintas actividades realizadas esta semana, los registros fotográficos con fines pedagógicos serán compartidos a la directiva y ellos les harán llegar las imágenes. Les recordamos que dada la ley vigente, nosotras no podemos usar nuestros teléfonos y la unica excepción es cuando se trata de actividades relacionadas al aprendizaje. Aquellos que aun no agendan horarios de entrevistas les pedimos hacerlo a la brevedad.\nINFORMACIÓN ACADÉMICA Y RECURSOS\nGESTIÓN DE PRUEBAS ATRASADAS\nLos estudiantes que se ausenten a evaluaciones sumativas deben quedarse a rendirlas fuera de la jornada escolar, la semana inmediatamente posterior a su ausencia en los siguientes horarios:\n1º y 2º básico: martes de 15:15 a 16:15\nPara este fin, les solicitamos tener en cuenta lo siguiente:\n· La asistencia a clases es obligatoria, por tanto, toda ausencia a evaluaciones debe ser debidamente justificada con certificado médico. No se aceptan otro tipo de justificaciones para las evaluaciones pertinentemente calendarizadas.\n. No se requiere aviso previo para este proceso: se debe considerar que los estudiantes estén preparados para su evaluación la semana posterior a la ausencia y se les retirara de la sala de clases a las 15:15 horas.\n· Las pruebas atrasadas las toman nuestras learning assistants, y no los profesores titulares de la asignatura.\n· La entrega de los estudiantes en proceso de evaluación atrasada los dias señalados, será desde las 16:15 y hasta las 16:30 horas por el portón principal. La puntualidad en el retiro es imprescindible.\n· Si los estudiantes tienen taller extraprogramático o after school los días señalados, se les dirigirá directamente a su actividad curricular al finalizar la evaluación.\n· Revisar pertinentemente el Reglamento de Evaluación y Promoción disponible en nuestra página web: https://cpvprovidencia.cl/politicas-y-reglamentos/ y ser responsables con la asistencia de sus hijos e hijas a cada proceso evaluativo.\nASIGNATURA: LENGUAJE\nContenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.\nSUBJECT: MATH\nContenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A\nSUBJECT: ENGLISH\nContenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4\nSUBJECT: SCIENCE & SOCIETY - IPC Miss Valentina González: vgonzalezr @cpdv.cl Miss Javiera Morales: įmoralesf@cpdv.cl\nContenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A\nSUBJECT: MUSIC - IPC Mister Nicolás Fita: nfitar@cpdv.cl\nContenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.\nSUBJECT: TECHNOLOGY\nMiss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)"
+  },
+  {
+    "id": 1777340505264,
+    "semanaInicio": "2026-04-27",
+    "semanaFin": "2026-05-03",
+    "descripcion": "fff",
+    "estado": "borrador",
+    "archivos": [
+      {
+        "filename": "1777340505258-9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "originalName": "9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "mimeType": "image/png",
+        "size": 143418
+      }
+    ],
+    "items": [
+      {
+        "id": 1777340518432,
+        "fecha": "2026-04-27",
+        "asignatura": "Lenguaje",
+        "horarioSugerido": "martes: 10:30-11:15 | martes: 11:15-12:00 | miercoles: 08:00-08:45 | miercoles: 08:45-09:30 | jueves: 08:00-08:45 | jueves: 08:45-09:30 | viernes: 08:00-08:45 | viernes: 08:45-09:30",
+        "detalle": "Contenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777340518444,
+        "fecha": "2026-04-27",
+        "asignatura": "Math",
+        "horarioSugerido": "lunes: 08:00-08:45 | lunes: 08:45-09:30 | martes: 08:00-08:45 | martes: 08:45-09:30 | miercoles: 14:30-15:15 | viernes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777340518445,
+        "fecha": "2026-04-27",
+        "asignatura": "English",
+        "horarioSugerido": "lunes: 10:30-11:15 | lunes: 11:15-12:00 | miercoles: 12:45-13:30 | miercoles: 13:30-14:15 | jueves: 09:30-10:15 | viernes: 12:45-13:30 | viernes: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777340518447,
+        "fecha": "2026-04-27",
+        "asignatura": "Science & Society",
+        "horarioSugerido": "lunes: 09:30-10:15 | martes: 09:30-10:15 | miercoles: 10:30-11:15 | miercoles: 11:15-12:00 | jueves: 12:45-13:30 | jueves: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777340518448,
+        "fecha": "2026-04-27",
+        "asignatura": "Music",
+        "horarioSugerido": "martes: 13:30-14:15 | martes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777340518449,
+        "fecha": "2026-04-27",
+        "asignatura": "Technology",
+        "horarioSugerido": "lunes: 12:45-13:30 | lunes: 13:30-14:15",
+        "detalle": "Miss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)",
+        "estado": "pendiente_revision"
+      }
+    ],
+    "fechaCarga": "2026-04-28T01:41:45.264Z",
+    "textoExtraido": "INFORMACIÓN DE CURSO\nLes agradecemos la motivación y compromiso para las distintas actividades realizadas esta semana, los registros fotográficos con fines pedagógicos serán compartidos a la directiva y ellos les harán llegar las imágenes. Les recordamos que dada la ley vigente, nosotras no podemos usar nuestros teléfonos y la unica excepción es cuando se trata de actividades relacionadas al aprendizaje. Aquellos que aun no agendan horarios de entrevistas les pedimos hacerlo a la brevedad.\nINFORMACIÓN ACADÉMICA Y RECURSOS\nGESTIÓN DE PRUEBAS ATRASADAS\nLos estudiantes que se ausenten a evaluaciones sumativas deben quedarse a rendirlas fuera de la jornada escolar, la semana inmediatamente posterior a su ausencia en los siguientes horarios:\n1º y 2º básico: martes de 15:15 a 16:15\nPara este fin, les solicitamos tener en cuenta lo siguiente:\n· La asistencia a clases es obligatoria, por tanto, toda ausencia a evaluaciones debe ser debidamente justificada con certificado médico. No se aceptan otro tipo de justificaciones para las evaluaciones pertinentemente calendarizadas.\n. No se requiere aviso previo para este proceso: se debe considerar que los estudiantes estén preparados para su evaluación la semana posterior a la ausencia y se les retirara de la sala de clases a las 15:15 horas.\n· Las pruebas atrasadas las toman nuestras learning assistants, y no los profesores titulares de la asignatura.\n· La entrega de los estudiantes en proceso de evaluación atrasada los dias señalados, será desde las 16:15 y hasta las 16:30 horas por el portón principal. La puntualidad en el retiro es imprescindible.\n· Si los estudiantes tienen taller extraprogramático o after school los días señalados, se les dirigirá directamente a su actividad curricular al finalizar la evaluación.\n· Revisar pertinentemente el Reglamento de Evaluación y Promoción disponible en nuestra página web: https://cpvprovidencia.cl/politicas-y-reglamentos/ y ser responsables con la asistencia de sus hijos e hijas a cada proceso evaluativo.\nASIGNATURA: LENGUAJE\nContenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.\nSUBJECT: MATH\nContenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A\nSUBJECT: ENGLISH\nContenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4\nSUBJECT: SCIENCE & SOCIETY - IPC Miss Valentina González: vgonzalezr @cpdv.cl Miss Javiera Morales: įmoralesf@cpdv.cl\nContenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A\nSUBJECT: MUSIC - IPC Mister Nicolás Fita: nfitar@cpdv.cl\nContenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.\nSUBJECT: TECHNOLOGY\nMiss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)"
+  },
+  {
+    "id": 1777340736858,
+    "semanaInicio": "2026-04-27",
+    "semanaFin": "2026-05-03",
+    "descripcion": "fff",
+    "estado": "borrador",
+    "archivos": [
+      {
+        "filename": "1777340736854-9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "originalName": "9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "mimeType": "image/png",
+        "size": 143418
+      }
+    ],
+    "items": [
+      {
+        "id": 1777340749754,
+        "fecha": "2026-04-27",
+        "asignatura": "Lenguaje",
+        "horarioSugerido": "martes: 10:30-11:15 | martes: 11:15-12:00 | miercoles: 08:00-08:45 | miercoles: 08:45-09:30 | jueves: 08:00-08:45 | jueves: 08:45-09:30 | viernes: 08:00-08:45 | viernes: 08:45-09:30",
+        "detalle": "Contenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777340749755,
+        "fecha": "2026-04-27",
+        "asignatura": "Math",
+        "horarioSugerido": "lunes: 08:00-08:45 | lunes: 08:45-09:30 | martes: 08:00-08:45 | martes: 08:45-09:30 | miercoles: 14:30-15:15 | viernes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777340749756,
+        "fecha": "2026-04-27",
+        "asignatura": "English",
+        "horarioSugerido": "lunes: 10:30-11:15 | lunes: 11:15-12:00 | miercoles: 12:45-13:30 | miercoles: 13:30-14:15 | jueves: 09:30-10:15 | viernes: 12:45-13:30 | viernes: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777340749757,
+        "fecha": "2026-04-27",
+        "asignatura": "Science & Society",
+        "horarioSugerido": "lunes: 09:30-10:15 | martes: 09:30-10:15 | miercoles: 10:30-11:15 | miercoles: 11:15-12:00 | jueves: 12:45-13:30 | jueves: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777340749759,
+        "fecha": "2026-04-27",
+        "asignatura": "Music",
+        "horarioSugerido": "martes: 13:30-14:15 | martes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777340749760,
+        "fecha": "2026-04-27",
+        "asignatura": "Technology",
+        "horarioSugerido": "lunes: 12:45-13:30 | lunes: 13:30-14:15",
+        "detalle": "Miss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)",
+        "estado": "pendiente_revision"
+      }
+    ],
+    "fechaCarga": "2026-04-28T01:45:36.858Z",
+    "textoExtraido": "INFORMACIÓN DE CURSO\nLes agradecemos la motivación y compromiso para las distintas actividades realizadas esta semana, los registros fotográficos con fines pedagógicos serán compartidos a la directiva y ellos les harán llegar las imágenes. Les recordamos que dada la ley vigente, nosotras no podemos usar nuestros teléfonos y la unica excepción es cuando se trata de actividades relacionadas al aprendizaje. Aquellos que aun no agendan horarios de entrevistas les pedimos hacerlo a la brevedad.\nINFORMACIÓN ACADÉMICA Y RECURSOS\nGESTIÓN DE PRUEBAS ATRASADAS\nLos estudiantes que se ausenten a evaluaciones sumativas deben quedarse a rendirlas fuera de la jornada escolar, la semana inmediatamente posterior a su ausencia en los siguientes horarios:\n1º y 2º básico: martes de 15:15 a 16:15\nPara este fin, les solicitamos tener en cuenta lo siguiente:\n· La asistencia a clases es obligatoria, por tanto, toda ausencia a evaluaciones debe ser debidamente justificada con certificado médico. No se aceptan otro tipo de justificaciones para las evaluaciones pertinentemente calendarizadas.\n. No se requiere aviso previo para este proceso: se debe considerar que los estudiantes estén preparados para su evaluación la semana posterior a la ausencia y se les retirara de la sala de clases a las 15:15 horas.\n· Las pruebas atrasadas las toman nuestras learning assistants, y no los profesores titulares de la asignatura.\n· La entrega de los estudiantes en proceso de evaluación atrasada los dias señalados, será desde las 16:15 y hasta las 16:30 horas por el portón principal. La puntualidad en el retiro es imprescindible.\n· Si los estudiantes tienen taller extraprogramático o after school los días señalados, se les dirigirá directamente a su actividad curricular al finalizar la evaluación.\n· Revisar pertinentemente el Reglamento de Evaluación y Promoción disponible en nuestra página web: https://cpvprovidencia.cl/politicas-y-reglamentos/ y ser responsables con la asistencia de sus hijos e hijas a cada proceso evaluativo.\nASIGNATURA: LENGUAJE\nContenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.\nSUBJECT: MATH\nContenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A\nSUBJECT: ENGLISH\nContenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4\nSUBJECT: SCIENCE & SOCIETY - IPC Miss Valentina González: vgonzalezr @cpdv.cl Miss Javiera Morales: įmoralesf@cpdv.cl\nContenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A\nSUBJECT: MUSIC - IPC Mister Nicolás Fita: nfitar@cpdv.cl\nContenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.\nSUBJECT: TECHNOLOGY\nMiss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)"
+  },
+  {
+    "id": 1777340778024,
+    "semanaInicio": "2026-04-27",
+    "semanaFin": "2026-05-03",
+    "descripcion": "fff",
+    "estado": "borrador",
+    "archivos": [
+      {
+        "filename": "1777340778018-9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "originalName": "9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "mimeType": "image/png",
+        "size": 143418
+      }
+    ],
+    "items": [
+      {
+        "id": 1777340790924,
+        "fecha": "2026-04-27",
+        "asignatura": "Lenguaje",
+        "horarioSugerido": "martes: 10:30-11:15 | martes: 11:15-12:00 | miercoles: 08:00-08:45 | miercoles: 08:45-09:30 | jueves: 08:00-08:45 | jueves: 08:45-09:30 | viernes: 08:00-08:45 | viernes: 08:45-09:30",
+        "detalle": "Contenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777340790925,
+        "fecha": "2026-04-27",
+        "asignatura": "Math",
+        "horarioSugerido": "lunes: 08:00-08:45 | lunes: 08:45-09:30 | martes: 08:00-08:45 | martes: 08:45-09:30 | miercoles: 14:30-15:15 | viernes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777340790926,
+        "fecha": "2026-04-27",
+        "asignatura": "English",
+        "horarioSugerido": "lunes: 10:30-11:15 | lunes: 11:15-12:00 | miercoles: 12:45-13:30 | miercoles: 13:30-14:15 | jueves: 09:30-10:15 | viernes: 12:45-13:30 | viernes: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777340790928,
+        "fecha": "2026-04-27",
+        "asignatura": "Science & Society",
+        "horarioSugerido": "lunes: 09:30-10:15 | martes: 09:30-10:15 | miercoles: 10:30-11:15 | miercoles: 11:15-12:00 | jueves: 12:45-13:30 | jueves: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777340790929,
+        "fecha": "2026-04-27",
+        "asignatura": "Music",
+        "horarioSugerido": "martes: 13:30-14:15 | martes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777340790930,
+        "fecha": "2026-04-27",
+        "asignatura": "Technology",
+        "horarioSugerido": "lunes: 12:45-13:30 | lunes: 13:30-14:15",
+        "detalle": "Miss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)",
+        "estado": "pendiente_revision"
+      }
+    ],
+    "fechaCarga": "2026-04-28T01:46:18.024Z",
+    "textoExtraido": "INFORMACIÓN DE CURSO\nLes agradecemos la motivación y compromiso para las distintas actividades realizadas esta semana, los registros fotográficos con fines pedagógicos serán compartidos a la directiva y ellos les harán llegar las imágenes. Les recordamos que dada la ley vigente, nosotras no podemos usar nuestros teléfonos y la unica excepción es cuando se trata de actividades relacionadas al aprendizaje. Aquellos que aun no agendan horarios de entrevistas les pedimos hacerlo a la brevedad.\nINFORMACIÓN ACADÉMICA Y RECURSOS\nGESTIÓN DE PRUEBAS ATRASADAS\nLos estudiantes que se ausenten a evaluaciones sumativas deben quedarse a rendirlas fuera de la jornada escolar, la semana inmediatamente posterior a su ausencia en los siguientes horarios:\n1º y 2º básico: martes de 15:15 a 16:15\nPara este fin, les solicitamos tener en cuenta lo siguiente:\n· La asistencia a clases es obligatoria, por tanto, toda ausencia a evaluaciones debe ser debidamente justificada con certificado médico. No se aceptan otro tipo de justificaciones para las evaluaciones pertinentemente calendarizadas.\n. No se requiere aviso previo para este proceso: se debe considerar que los estudiantes estén preparados para su evaluación la semana posterior a la ausencia y se les retirara de la sala de clases a las 15:15 horas.\n· Las pruebas atrasadas las toman nuestras learning assistants, y no los profesores titulares de la asignatura.\n· La entrega de los estudiantes en proceso de evaluación atrasada los dias señalados, será desde las 16:15 y hasta las 16:30 horas por el portón principal. La puntualidad en el retiro es imprescindible.\n· Si los estudiantes tienen taller extraprogramático o after school los días señalados, se les dirigirá directamente a su actividad curricular al finalizar la evaluación.\n· Revisar pertinentemente el Reglamento de Evaluación y Promoción disponible en nuestra página web: https://cpvprovidencia.cl/politicas-y-reglamentos/ y ser responsables con la asistencia de sus hijos e hijas a cada proceso evaluativo.\nASIGNATURA: LENGUAJE\nContenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.\nSUBJECT: MATH\nContenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A\nSUBJECT: ENGLISH\nContenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4\nSUBJECT: SCIENCE & SOCIETY - IPC Miss Valentina González: vgonzalezr @cpdv.cl Miss Javiera Morales: įmoralesf@cpdv.cl\nContenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A\nSUBJECT: MUSIC - IPC Mister Nicolás Fita: nfitar@cpdv.cl\nContenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.\nSUBJECT: TECHNOLOGY\nMiss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)"
+  },
+  {
+    "id": 1777340817025,
+    "semanaInicio": "2026-04-27",
+    "semanaFin": "2026-05-03",
+    "descripcion": "ccc",
+    "estado": "borrador",
+    "archivos": [
+      {
+        "filename": "1777340817021-9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "originalName": "9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "mimeType": "image/png",
+        "size": 143418
+      }
+    ],
+    "items": [
+      {
+        "id": 1777340829902,
+        "fecha": "2026-04-27",
+        "asignatura": "Lenguaje",
+        "horarioSugerido": "martes: 10:30-11:15 | martes: 11:15-12:00 | miercoles: 08:00-08:45 | miercoles: 08:45-09:30 | jueves: 08:00-08:45 | jueves: 08:45-09:30 | viernes: 08:00-08:45 | viernes: 08:45-09:30",
+        "detalle": "Contenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777340829903,
+        "fecha": "2026-04-27",
+        "asignatura": "Math",
+        "horarioSugerido": "lunes: 08:00-08:45 | lunes: 08:45-09:30 | martes: 08:00-08:45 | martes: 08:45-09:30 | miercoles: 14:30-15:15 | viernes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777340829905,
+        "fecha": "2026-04-27",
+        "asignatura": "English",
+        "horarioSugerido": "lunes: 10:30-11:15 | lunes: 11:15-12:00 | miercoles: 12:45-13:30 | miercoles: 13:30-14:15 | jueves: 09:30-10:15 | viernes: 12:45-13:30 | viernes: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777340829906,
+        "fecha": "2026-04-27",
+        "asignatura": "Science & Society",
+        "horarioSugerido": "lunes: 09:30-10:15 | martes: 09:30-10:15 | miercoles: 10:30-11:15 | miercoles: 11:15-12:00 | jueves: 12:45-13:30 | jueves: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777340829907,
+        "fecha": "2026-04-27",
+        "asignatura": "Music",
+        "horarioSugerido": "martes: 13:30-14:15 | martes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777340829908,
+        "fecha": "2026-04-27",
+        "asignatura": "Technology",
+        "horarioSugerido": "lunes: 12:45-13:30 | lunes: 13:30-14:15",
+        "detalle": "Miss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)",
+        "estado": "pendiente_revision"
+      }
+    ],
+    "fechaCarga": "2026-04-28T01:46:57.025Z",
+    "textoExtraido": "INFORMACIÓN DE CURSO\nLes agradecemos la motivación y compromiso para las distintas actividades realizadas esta semana, los registros fotográficos con fines pedagógicos serán compartidos a la directiva y ellos les harán llegar las imágenes. Les recordamos que dada la ley vigente, nosotras no podemos usar nuestros teléfonos y la unica excepción es cuando se trata de actividades relacionadas al aprendizaje. Aquellos que aun no agendan horarios de entrevistas les pedimos hacerlo a la brevedad.\nINFORMACIÓN ACADÉMICA Y RECURSOS\nGESTIÓN DE PRUEBAS ATRASADAS\nLos estudiantes que se ausenten a evaluaciones sumativas deben quedarse a rendirlas fuera de la jornada escolar, la semana inmediatamente posterior a su ausencia en los siguientes horarios:\n1º y 2º básico: martes de 15:15 a 16:15\nPara este fin, les solicitamos tener en cuenta lo siguiente:\n· La asistencia a clases es obligatoria, por tanto, toda ausencia a evaluaciones debe ser debidamente justificada con certificado médico. No se aceptan otro tipo de justificaciones para las evaluaciones pertinentemente calendarizadas.\n. No se requiere aviso previo para este proceso: se debe considerar que los estudiantes estén preparados para su evaluación la semana posterior a la ausencia y se les retirara de la sala de clases a las 15:15 horas.\n· Las pruebas atrasadas las toman nuestras learning assistants, y no los profesores titulares de la asignatura.\n· La entrega de los estudiantes en proceso de evaluación atrasada los dias señalados, será desde las 16:15 y hasta las 16:30 horas por el portón principal. La puntualidad en el retiro es imprescindible.\n· Si los estudiantes tienen taller extraprogramático o after school los días señalados, se les dirigirá directamente a su actividad curricular al finalizar la evaluación.\n· Revisar pertinentemente el Reglamento de Evaluación y Promoción disponible en nuestra página web: https://cpvprovidencia.cl/politicas-y-reglamentos/ y ser responsables con la asistencia de sus hijos e hijas a cada proceso evaluativo.\nASIGNATURA: LENGUAJE\nContenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.\nSUBJECT: MATH\nContenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A\nSUBJECT: ENGLISH\nContenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4\nSUBJECT: SCIENCE & SOCIETY - IPC Miss Valentina González: vgonzalezr @cpdv.cl Miss Javiera Morales: įmoralesf@cpdv.cl\nContenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A\nSUBJECT: MUSIC - IPC Mister Nicolás Fita: nfitar@cpdv.cl\nContenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.\nSUBJECT: TECHNOLOGY\nMiss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)"
+  },
+  {
+    "id": 1777341944555,
+    "semanaInicio": "2026-04-27",
+    "semanaFin": "2026-05-03",
+    "descripcion": "ccc",
+    "estado": "borrador",
+    "archivos": [
+      {
+        "filename": "1777341944550-9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "originalName": "9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "mimeType": "image/png",
+        "size": 143418
+      }
+    ],
+    "items": [
+      {
+        "id": 1777341958357,
+        "fecha": "2026-04-27",
+        "asignatura": "Lenguaje",
+        "horarioSugerido": "martes: 10:30-11:15 | martes: 11:15-12:00 | miercoles: 08:00-08:45 | miercoles: 08:45-09:30 | jueves: 08:00-08:45 | jueves: 08:45-09:30 | viernes: 08:00-08:45 | viernes: 08:45-09:30",
+        "detalle": "Contenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777341958359,
+        "fecha": "2026-04-27",
+        "asignatura": "Math",
+        "horarioSugerido": "lunes: 08:00-08:45 | lunes: 08:45-09:30 | martes: 08:00-08:45 | martes: 08:45-09:30 | miercoles: 14:30-15:15 | viernes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777341958360,
+        "fecha": "2026-04-27",
+        "asignatura": "English",
+        "horarioSugerido": "lunes: 10:30-11:15 | lunes: 11:15-12:00 | miercoles: 12:45-13:30 | miercoles: 13:30-14:15 | jueves: 09:30-10:15 | viernes: 12:45-13:30 | viernes: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777341958361,
+        "fecha": "2026-04-27",
+        "asignatura": "Science & Society",
+        "horarioSugerido": "lunes: 09:30-10:15 | martes: 09:30-10:15 | miercoles: 10:30-11:15 | miercoles: 11:15-12:00 | jueves: 12:45-13:30 | jueves: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777341958362,
+        "fecha": "2026-04-27",
+        "asignatura": "Music",
+        "horarioSugerido": "martes: 13:30-14:15 | martes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777341958363,
+        "fecha": "2026-04-27",
+        "asignatura": "Technology",
+        "horarioSugerido": "lunes: 12:45-13:30 | lunes: 13:30-14:15",
+        "detalle": "Miss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)",
+        "estado": "pendiente_revision"
+      }
+    ],
+    "fechaCarga": "2026-04-28T02:05:44.555Z",
+    "textoExtraido": "INFORMACIÓN DE CURSO\nLes agradecemos la motivación y compromiso para las distintas actividades realizadas esta semana, los registros fotográficos con fines pedagógicos serán compartidos a la directiva y ellos les harán llegar las imágenes. Les recordamos que dada la ley vigente, nosotras no podemos usar nuestros teléfonos y la unica excepción es cuando se trata de actividades relacionadas al aprendizaje. Aquellos que aun no agendan horarios de entrevistas les pedimos hacerlo a la brevedad.\nINFORMACIÓN ACADÉMICA Y RECURSOS\nGESTIÓN DE PRUEBAS ATRASADAS\nLos estudiantes que se ausenten a evaluaciones sumativas deben quedarse a rendirlas fuera de la jornada escolar, la semana inmediatamente posterior a su ausencia en los siguientes horarios:\n1º y 2º básico: martes de 15:15 a 16:15\nPara este fin, les solicitamos tener en cuenta lo siguiente:\n· La asistencia a clases es obligatoria, por tanto, toda ausencia a evaluaciones debe ser debidamente justificada con certificado médico. No se aceptan otro tipo de justificaciones para las evaluaciones pertinentemente calendarizadas.\n. No se requiere aviso previo para este proceso: se debe considerar que los estudiantes estén preparados para su evaluación la semana posterior a la ausencia y se les retirara de la sala de clases a las 15:15 horas.\n· Las pruebas atrasadas las toman nuestras learning assistants, y no los profesores titulares de la asignatura.\n· La entrega de los estudiantes en proceso de evaluación atrasada los dias señalados, será desde las 16:15 y hasta las 16:30 horas por el portón principal. La puntualidad en el retiro es imprescindible.\n· Si los estudiantes tienen taller extraprogramático o after school los días señalados, se les dirigirá directamente a su actividad curricular al finalizar la evaluación.\n· Revisar pertinentemente el Reglamento de Evaluación y Promoción disponible en nuestra página web: https://cpvprovidencia.cl/politicas-y-reglamentos/ y ser responsables con la asistencia de sus hijos e hijas a cada proceso evaluativo.\nASIGNATURA: LENGUAJE\nContenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.\nSUBJECT: MATH\nContenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A\nSUBJECT: ENGLISH\nContenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4\nSUBJECT: SCIENCE & SOCIETY - IPC Miss Valentina González: vgonzalezr @cpdv.cl Miss Javiera Morales: įmoralesf@cpdv.cl\nContenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A\nSUBJECT: MUSIC - IPC Mister Nicolás Fita: nfitar@cpdv.cl\nContenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.\nSUBJECT: TECHNOLOGY\nMiss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)"
+  },
+  {
+    "id": 1777434495860,
+    "semanaInicio": "2026-04-27",
+    "semanaFin": "2026-05-03",
+    "descripcion": "ddd",
+    "estado": "borrador",
+    "archivos": [
+      {
+        "filename": "1777434495854-9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "originalName": "9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "mimeType": "image/png",
+        "size": 143418
+      }
+    ],
+    "items": [
+      {
+        "id": 1777434509736,
+        "fecha": "2026-04-27",
+        "asignatura": "Lenguaje",
+        "horarioSugerido": "martes: 10:30-11:15 | martes: 11:15-12:00 | miercoles: 08:00-08:45 | miercoles: 08:45-09:30 | jueves: 08:00-08:45 | jueves: 08:45-09:30 | viernes: 08:00-08:45 | viernes: 08:45-09:30",
+        "detalle": "Contenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777434509739,
+        "fecha": "2026-04-27",
+        "asignatura": "Math",
+        "horarioSugerido": "lunes: 08:00-08:45 | lunes: 08:45-09:30 | martes: 08:00-08:45 | martes: 08:45-09:30 | miercoles: 14:30-15:15 | viernes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777434509740,
+        "fecha": "2026-04-27",
+        "asignatura": "English",
+        "horarioSugerido": "lunes: 10:30-11:15 | lunes: 11:15-12:00 | miercoles: 12:45-13:30 | miercoles: 13:30-14:15 | jueves: 09:30-10:15 | viernes: 12:45-13:30 | viernes: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777434509741,
+        "fecha": "2026-04-27",
+        "asignatura": "Science & Society",
+        "horarioSugerido": "lunes: 09:30-10:15 | martes: 09:30-10:15 | miercoles: 10:30-11:15 | miercoles: 11:15-12:00 | jueves: 12:45-13:30 | jueves: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777434509742,
+        "fecha": "2026-04-27",
+        "asignatura": "Music",
+        "horarioSugerido": "martes: 13:30-14:15 | martes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777434509743,
+        "fecha": "2026-04-27",
+        "asignatura": "Technology",
+        "horarioSugerido": "lunes: 12:45-13:30 | lunes: 13:30-14:15",
+        "detalle": "Miss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)",
+        "estado": "pendiente_revision"
+      }
+    ],
+    "fechaCarga": "2026-04-29T03:48:15.860Z",
+    "textoExtraido": "INFORMACIÓN DE CURSO\nLes agradecemos la motivación y compromiso para las distintas actividades realizadas esta semana, los registros fotográficos con fines pedagógicos serán compartidos a la directiva y ellos les harán llegar las imágenes. Les recordamos que dada la ley vigente, nosotras no podemos usar nuestros teléfonos y la unica excepción es cuando se trata de actividades relacionadas al aprendizaje. Aquellos que aun no agendan horarios de entrevistas les pedimos hacerlo a la brevedad.\nINFORMACIÓN ACADÉMICA Y RECURSOS\nGESTIÓN DE PRUEBAS ATRASADAS\nLos estudiantes que se ausenten a evaluaciones sumativas deben quedarse a rendirlas fuera de la jornada escolar, la semana inmediatamente posterior a su ausencia en los siguientes horarios:\n1º y 2º básico: martes de 15:15 a 16:15\nPara este fin, les solicitamos tener en cuenta lo siguiente:\n· La asistencia a clases es obligatoria, por tanto, toda ausencia a evaluaciones debe ser debidamente justificada con certificado médico. No se aceptan otro tipo de justificaciones para las evaluaciones pertinentemente calendarizadas.\n. No se requiere aviso previo para este proceso: se debe considerar que los estudiantes estén preparados para su evaluación la semana posterior a la ausencia y se les retirara de la sala de clases a las 15:15 horas.\n· Las pruebas atrasadas las toman nuestras learning assistants, y no los profesores titulares de la asignatura.\n· La entrega de los estudiantes en proceso de evaluación atrasada los dias señalados, será desde las 16:15 y hasta las 16:30 horas por el portón principal. La puntualidad en el retiro es imprescindible.\n· Si los estudiantes tienen taller extraprogramático o after school los días señalados, se les dirigirá directamente a su actividad curricular al finalizar la evaluación.\n· Revisar pertinentemente el Reglamento de Evaluación y Promoción disponible en nuestra página web: https://cpvprovidencia.cl/politicas-y-reglamentos/ y ser responsables con la asistencia de sus hijos e hijas a cada proceso evaluativo.\nASIGNATURA: LENGUAJE\nContenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.\nSUBJECT: MATH\nContenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A\nSUBJECT: ENGLISH\nContenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4\nSUBJECT: SCIENCE & SOCIETY - IPC Miss Valentina González: vgonzalezr @cpdv.cl Miss Javiera Morales: įmoralesf@cpdv.cl\nContenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A\nSUBJECT: MUSIC - IPC Mister Nicolás Fita: nfitar@cpdv.cl\nContenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.\nSUBJECT: TECHNOLOGY\nMiss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)"
+  },
+  {
+    "id": 1777435115684,
+    "semanaInicio": "2026-04-27",
+    "semanaFin": "2026-05-03",
+    "descripcion": "ddd",
+    "estado": "borrador",
+    "archivos": [
+      {
+        "filename": "1777435115677-9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "originalName": "9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "mimeType": "image/png",
+        "size": 143418
+      }
+    ],
+    "items": [
+      {
+        "id": 1777435129563,
+        "fecha": "2026-04-27",
+        "asignatura": "Lenguaje",
+        "horarioSugerido": "martes: 10:30-11:15 | martes: 11:15-12:00 | miercoles: 08:00-08:45 | miercoles: 08:45-09:30 | jueves: 08:00-08:45 | jueves: 08:45-09:30 | viernes: 08:00-08:45 | viernes: 08:45-09:30",
+        "detalle": "Contenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777435129566,
+        "fecha": "2026-04-27",
+        "asignatura": "Math",
+        "horarioSugerido": "lunes: 08:00-08:45 | lunes: 08:45-09:30 | martes: 08:00-08:45 | martes: 08:45-09:30 | miercoles: 14:30-15:15 | viernes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777435129568,
+        "fecha": "2026-04-27",
+        "asignatura": "English",
+        "horarioSugerido": "lunes: 10:30-11:15 | lunes: 11:15-12:00 | miercoles: 12:45-13:30 | miercoles: 13:30-14:15 | jueves: 09:30-10:15 | viernes: 12:45-13:30 | viernes: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777435129569,
+        "fecha": "2026-04-27",
+        "asignatura": "Science & Society",
+        "horarioSugerido": "lunes: 09:30-10:15 | martes: 09:30-10:15 | miercoles: 10:30-11:15 | miercoles: 11:15-12:00 | jueves: 12:45-13:30 | jueves: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777435129570,
+        "fecha": "2026-04-27",
+        "asignatura": "Music",
+        "horarioSugerido": "martes: 13:30-14:15 | martes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777435129572,
+        "fecha": "2026-04-27",
+        "asignatura": "Technology",
+        "horarioSugerido": "lunes: 12:45-13:30 | lunes: 13:30-14:15",
+        "detalle": "Miss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)",
+        "estado": "pendiente_revision"
+      }
+    ],
+    "fechaCarga": "2026-04-29T03:58:35.684Z",
+    "textoExtraido": "INFORMACIÓN DE CURSO\nLes agradecemos la motivación y compromiso para las distintas actividades realizadas esta semana, los registros fotográficos con fines pedagógicos serán compartidos a la directiva y ellos les harán llegar las imágenes. Les recordamos que dada la ley vigente, nosotras no podemos usar nuestros teléfonos y la unica excepción es cuando se trata de actividades relacionadas al aprendizaje. Aquellos que aun no agendan horarios de entrevistas les pedimos hacerlo a la brevedad.\nINFORMACIÓN ACADÉMICA Y RECURSOS\nGESTIÓN DE PRUEBAS ATRASADAS\nLos estudiantes que se ausenten a evaluaciones sumativas deben quedarse a rendirlas fuera de la jornada escolar, la semana inmediatamente posterior a su ausencia en los siguientes horarios:\n1º y 2º básico: martes de 15:15 a 16:15\nPara este fin, les solicitamos tener en cuenta lo siguiente:\n· La asistencia a clases es obligatoria, por tanto, toda ausencia a evaluaciones debe ser debidamente justificada con certificado médico. No se aceptan otro tipo de justificaciones para las evaluaciones pertinentemente calendarizadas.\n. No se requiere aviso previo para este proceso: se debe considerar que los estudiantes estén preparados para su evaluación la semana posterior a la ausencia y se les retirara de la sala de clases a las 15:15 horas.\n· Las pruebas atrasadas las toman nuestras learning assistants, y no los profesores titulares de la asignatura.\n· La entrega de los estudiantes en proceso de evaluación atrasada los dias señalados, será desde las 16:15 y hasta las 16:30 horas por el portón principal. La puntualidad en el retiro es imprescindible.\n· Si los estudiantes tienen taller extraprogramático o after school los días señalados, se les dirigirá directamente a su actividad curricular al finalizar la evaluación.\n· Revisar pertinentemente el Reglamento de Evaluación y Promoción disponible en nuestra página web: https://cpvprovidencia.cl/politicas-y-reglamentos/ y ser responsables con la asistencia de sus hijos e hijas a cada proceso evaluativo.\nASIGNATURA: LENGUAJE\nContenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.\nSUBJECT: MATH\nContenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A\nSUBJECT: ENGLISH\nContenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4\nSUBJECT: SCIENCE & SOCIETY - IPC Miss Valentina González: vgonzalezr @cpdv.cl Miss Javiera Morales: įmoralesf@cpdv.cl\nContenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A\nSUBJECT: MUSIC - IPC Mister Nicolás Fita: nfitar@cpdv.cl\nContenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.\nSUBJECT: TECHNOLOGY\nMiss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)"
+  },
+  {
+    "id": 1777435283893,
+    "semanaInicio": "2026-04-27",
+    "semanaFin": "2026-05-03",
+    "descripcion": "ddd",
+    "estado": "borrador",
+    "archivos": [
+      {
+        "filename": "1777435283887-9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "originalName": "9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "mimeType": "image/png",
+        "size": 143418
+      }
+    ],
+    "items": [
+      {
+        "id": 1777435296856,
+        "fecha": "2026-04-27",
+        "asignatura": "Lenguaje",
+        "horarioSugerido": "martes: 10:30-11:15 | martes: 11:15-12:00 | miercoles: 08:00-08:45 | miercoles: 08:45-09:30 | jueves: 08:00-08:45 | jueves: 08:45-09:30 | viernes: 08:00-08:45 | viernes: 08:45-09:30",
+        "detalle": "Contenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777435296858,
+        "fecha": "2026-04-27",
+        "asignatura": "Math",
+        "horarioSugerido": "lunes: 08:00-08:45 | lunes: 08:45-09:30 | martes: 08:00-08:45 | martes: 08:45-09:30 | miercoles: 14:30-15:15 | viernes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777435296859,
+        "fecha": "2026-04-27",
+        "asignatura": "English",
+        "horarioSugerido": "lunes: 10:30-11:15 | lunes: 11:15-12:00 | miercoles: 12:45-13:30 | miercoles: 13:30-14:15 | jueves: 09:30-10:15 | viernes: 12:45-13:30 | viernes: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777435296860,
+        "fecha": "2026-04-27",
+        "asignatura": "Science & Society",
+        "horarioSugerido": "lunes: 09:30-10:15 | martes: 09:30-10:15 | miercoles: 10:30-11:15 | miercoles: 11:15-12:00 | jueves: 12:45-13:30 | jueves: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777435296862,
+        "fecha": "2026-04-27",
+        "asignatura": "Music",
+        "horarioSugerido": "martes: 13:30-14:15 | martes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777435296863,
+        "fecha": "2026-04-27",
+        "asignatura": "Technology",
+        "horarioSugerido": "lunes: 12:45-13:30 | lunes: 13:30-14:15",
+        "detalle": "Miss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)",
+        "estado": "pendiente_revision"
+      }
+    ],
+    "fechaCarga": "2026-04-29T04:01:23.893Z",
+    "textoExtraido": "INFORMACIÓN DE CURSO\nLes agradecemos la motivación y compromiso para las distintas actividades realizadas esta semana, los registros fotográficos con fines pedagógicos serán compartidos a la directiva y ellos les harán llegar las imágenes. Les recordamos que dada la ley vigente, nosotras no podemos usar nuestros teléfonos y la unica excepción es cuando se trata de actividades relacionadas al aprendizaje. Aquellos que aun no agendan horarios de entrevistas les pedimos hacerlo a la brevedad.\nINFORMACIÓN ACADÉMICA Y RECURSOS\nGESTIÓN DE PRUEBAS ATRASADAS\nLos estudiantes que se ausenten a evaluaciones sumativas deben quedarse a rendirlas fuera de la jornada escolar, la semana inmediatamente posterior a su ausencia en los siguientes horarios:\n1º y 2º básico: martes de 15:15 a 16:15\nPara este fin, les solicitamos tener en cuenta lo siguiente:\n· La asistencia a clases es obligatoria, por tanto, toda ausencia a evaluaciones debe ser debidamente justificada con certificado médico. No se aceptan otro tipo de justificaciones para las evaluaciones pertinentemente calendarizadas.\n. No se requiere aviso previo para este proceso: se debe considerar que los estudiantes estén preparados para su evaluación la semana posterior a la ausencia y se les retirara de la sala de clases a las 15:15 horas.\n· Las pruebas atrasadas las toman nuestras learning assistants, y no los profesores titulares de la asignatura.\n· La entrega de los estudiantes en proceso de evaluación atrasada los dias señalados, será desde las 16:15 y hasta las 16:30 horas por el portón principal. La puntualidad en el retiro es imprescindible.\n· Si los estudiantes tienen taller extraprogramático o after school los días señalados, se les dirigirá directamente a su actividad curricular al finalizar la evaluación.\n· Revisar pertinentemente el Reglamento de Evaluación y Promoción disponible en nuestra página web: https://cpvprovidencia.cl/politicas-y-reglamentos/ y ser responsables con la asistencia de sus hijos e hijas a cada proceso evaluativo.\nASIGNATURA: LENGUAJE\nContenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.\nSUBJECT: MATH\nContenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A\nSUBJECT: ENGLISH\nContenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4\nSUBJECT: SCIENCE & SOCIETY - IPC Miss Valentina González: vgonzalezr @cpdv.cl Miss Javiera Morales: įmoralesf@cpdv.cl\nContenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A\nSUBJECT: MUSIC - IPC Mister Nicolás Fita: nfitar@cpdv.cl\nContenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.\nSUBJECT: TECHNOLOGY\nMiss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)"
+  },
+  {
+    "id": 1777435659213,
+    "semanaInicio": "2026-04-27",
+    "semanaFin": "2026-05-03",
+    "descripcion": "ddd",
+    "estado": "borrador",
+    "archivos": [
+      {
+        "filename": "1777435659206-9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "originalName": "9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "mimeType": "image/png",
+        "size": 143418
+      }
+    ],
+    "items": [
+      {
+        "id": 1777435672522,
+        "fecha": "2026-04-27",
+        "asignatura": "Lenguaje",
+        "horarioSugerido": "martes: 10:30-11:15 | martes: 11:15-12:00 | miercoles: 08:00-08:45 | miercoles: 08:45-09:30 | jueves: 08:00-08:45 | jueves: 08:45-09:30 | viernes: 08:00-08:45 | viernes: 08:45-09:30",
+        "detalle": "Contenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777435672535,
+        "fecha": "2026-04-27",
+        "asignatura": "Math",
+        "horarioSugerido": "lunes: 08:00-08:45 | lunes: 08:45-09:30 | martes: 08:00-08:45 | martes: 08:45-09:30 | miercoles: 14:30-15:15 | viernes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777435672536,
+        "fecha": "2026-04-27",
+        "asignatura": "English",
+        "horarioSugerido": "lunes: 10:30-11:15 | lunes: 11:15-12:00 | miercoles: 12:45-13:30 | miercoles: 13:30-14:15 | jueves: 09:30-10:15 | viernes: 12:45-13:30 | viernes: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777435672538,
+        "fecha": "2026-04-27",
+        "asignatura": "Science & Society",
+        "horarioSugerido": "lunes: 09:30-10:15 | martes: 09:30-10:15 | miercoles: 10:30-11:15 | miercoles: 11:15-12:00 | jueves: 12:45-13:30 | jueves: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777435672539,
+        "fecha": "2026-04-27",
+        "asignatura": "Music",
+        "horarioSugerido": "martes: 13:30-14:15 | martes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777435672540,
+        "fecha": "2026-04-27",
+        "asignatura": "Technology",
+        "horarioSugerido": "lunes: 12:45-13:30 | lunes: 13:30-14:15",
+        "detalle": "Miss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)",
+        "estado": "pendiente_revision"
+      }
+    ],
+    "fechaCarga": "2026-04-29T04:07:39.213Z",
+    "textoExtraido": "INFORMACIÓN DE CURSO\nLes agradecemos la motivación y compromiso para las distintas actividades realizadas esta semana, los registros fotográficos con fines pedagógicos serán compartidos a la directiva y ellos les harán llegar las imágenes. Les recordamos que dada la ley vigente, nosotras no podemos usar nuestros teléfonos y la unica excepción es cuando se trata de actividades relacionadas al aprendizaje. Aquellos que aun no agendan horarios de entrevistas les pedimos hacerlo a la brevedad.\nINFORMACIÓN ACADÉMICA Y RECURSOS\nGESTIÓN DE PRUEBAS ATRASADAS\nLos estudiantes que se ausenten a evaluaciones sumativas deben quedarse a rendirlas fuera de la jornada escolar, la semana inmediatamente posterior a su ausencia en los siguientes horarios:\n1º y 2º básico: martes de 15:15 a 16:15\nPara este fin, les solicitamos tener en cuenta lo siguiente:\n· La asistencia a clases es obligatoria, por tanto, toda ausencia a evaluaciones debe ser debidamente justificada con certificado médico. No se aceptan otro tipo de justificaciones para las evaluaciones pertinentemente calendarizadas.\n. No se requiere aviso previo para este proceso: se debe considerar que los estudiantes estén preparados para su evaluación la semana posterior a la ausencia y se les retirara de la sala de clases a las 15:15 horas.\n· Las pruebas atrasadas las toman nuestras learning assistants, y no los profesores titulares de la asignatura.\n· La entrega de los estudiantes en proceso de evaluación atrasada los dias señalados, será desde las 16:15 y hasta las 16:30 horas por el portón principal. La puntualidad en el retiro es imprescindible.\n· Si los estudiantes tienen taller extraprogramático o after school los días señalados, se les dirigirá directamente a su actividad curricular al finalizar la evaluación.\n· Revisar pertinentemente el Reglamento de Evaluación y Promoción disponible en nuestra página web: https://cpvprovidencia.cl/politicas-y-reglamentos/ y ser responsables con la asistencia de sus hijos e hijas a cada proceso evaluativo.\nASIGNATURA: LENGUAJE\nContenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.\nSUBJECT: MATH\nContenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A\nSUBJECT: ENGLISH\nContenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4\nSUBJECT: SCIENCE & SOCIETY - IPC Miss Valentina González: vgonzalezr @cpdv.cl Miss Javiera Morales: įmoralesf@cpdv.cl\nContenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A\nSUBJECT: MUSIC - IPC Mister Nicolás Fita: nfitar@cpdv.cl\nContenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.\nSUBJECT: TECHNOLOGY\nMiss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)"
+  },
+  {
+    "id": 1777436007987,
+    "semanaInicio": "2026-04-27",
+    "semanaFin": "2026-05-03",
+    "descripcion": "ddd",
+    "estado": "borrador",
+    "archivos": [
+      {
+        "filename": "1777436007985-9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "originalName": "9e2de773-a4fa-4371-95ec-f0e2a7bb493b.png",
+        "mimeType": "image/png",
+        "size": 143418
+      }
+    ],
+    "items": [
+      {
+        "id": 1777436021585,
+        "fecha": "2026-04-27",
+        "asignatura": "Lenguaje",
+        "horarioSugerido": "martes: 10:30-11:15 | martes: 11:15-12:00 | miercoles: 08:00-08:45 | miercoles: 08:45-09:30 | jueves: 08:00-08:45 | jueves: 08:45-09:30 | viernes: 08:00-08:45 | viernes: 08:45-09:30",
+        "detalle": "Contenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777436021588,
+        "fecha": "2026-04-27",
+        "asignatura": "Math",
+        "horarioSugerido": "lunes: 08:00-08:45 | lunes: 08:45-09:30 | martes: 08:00-08:45 | martes: 08:45-09:30 | miercoles: 14:30-15:15 | viernes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777436021590,
+        "fecha": "2026-04-27",
+        "asignatura": "English",
+        "horarioSugerido": "lunes: 10:30-11:15 | lunes: 11:15-12:00 | miercoles: 12:45-13:30 | miercoles: 13:30-14:15 | jueves: 09:30-10:15 | viernes: 12:45-13:30 | viernes: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777436021591,
+        "fecha": "2026-04-27",
+        "asignatura": "Science & Society",
+        "horarioSugerido": "lunes: 09:30-10:15 | martes: 09:30-10:15 | miercoles: 10:30-11:15 | miercoles: 11:15-12:00 | jueves: 12:45-13:30 | jueves: 13:30-14:15",
+        "detalle": "Contenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777436021592,
+        "fecha": "2026-04-27",
+        "asignatura": "Music",
+        "horarioSugerido": "martes: 13:30-14:15 | martes: 14:30-15:15",
+        "detalle": "Contenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.",
+        "estado": "pendiente_revision"
+      },
+      {
+        "id": 1777436021594,
+        "fecha": "2026-04-27",
+        "asignatura": "Technology",
+        "horarioSugerido": "lunes: 12:45-13:30 | lunes: 13:30-14:15",
+        "detalle": "Miss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)",
+        "estado": "pendiente_revision"
+      }
+    ],
+    "fechaCarga": "2026-04-29T04:13:27.987Z",
+    "textoExtraido": "INFORMACIÓN DE CURSO\nLes agradecemos la motivación y compromiso para las distintas actividades realizadas esta semana, los registros fotográficos con fines pedagógicos serán compartidos a la directiva y ellos les harán llegar las imágenes. Les recordamos que dada la ley vigente, nosotras no podemos usar nuestros teléfonos y la unica excepción es cuando se trata de actividades relacionadas al aprendizaje. Aquellos que aun no agendan horarios de entrevistas les pedimos hacerlo a la brevedad.\nINFORMACIÓN ACADÉMICA Y RECURSOS\nGESTIÓN DE PRUEBAS ATRASADAS\nLos estudiantes que se ausenten a evaluaciones sumativas deben quedarse a rendirlas fuera de la jornada escolar, la semana inmediatamente posterior a su ausencia en los siguientes horarios:\n1º y 2º básico: martes de 15:15 a 16:15\nPara este fin, les solicitamos tener en cuenta lo siguiente:\n· La asistencia a clases es obligatoria, por tanto, toda ausencia a evaluaciones debe ser debidamente justificada con certificado médico. No se aceptan otro tipo de justificaciones para las evaluaciones pertinentemente calendarizadas.\n. No se requiere aviso previo para este proceso: se debe considerar que los estudiantes estén preparados para su evaluación la semana posterior a la ausencia y se les retirara de la sala de clases a las 15:15 horas.\n· Las pruebas atrasadas las toman nuestras learning assistants, y no los profesores titulares de la asignatura.\n· La entrega de los estudiantes en proceso de evaluación atrasada los dias señalados, será desde las 16:15 y hasta las 16:30 horas por el portón principal. La puntualidad en el retiro es imprescindible.\n· Si los estudiantes tienen taller extraprogramático o after school los días señalados, se les dirigirá directamente a su actividad curricular al finalizar la evaluación.\n· Revisar pertinentemente el Reglamento de Evaluación y Promoción disponible en nuestra página web: https://cpvprovidencia.cl/politicas-y-reglamentos/ y ser responsables con la asistencia de sus hijos e hijas a cada proceso evaluativo.\nASIGNATURA: LENGUAJE\nContenidos de la semana: Inicio de la unidad 2, Texto informativos, comprensión lectora, que -qui y ce - ci.\nMateriales: Libro Valientes, Libro senda, Ticket de salida del libro Valientes.\nSUBJECT: MATH\nContenidos de la semana: Consolidating Unit I - Math Strategies, Problem Solving\nMateriales: N/A\nEvaluaciones: N/A\nSUBJECT: ENGLISH\nContenidos de la semana: Unit 2 Mealtime . Review Vocabulary and Grammar: Does he/she have (chicken ) for lunch? Yes, he/she does/ No, he/she doesn't.\nMateriales: Student book and workbook. Estuche completo Les comentamos que la semana del 5 al 9 de mayo comenzaremos a trabajar el libro de lectura complementaria solicitado para el primer semestre: The big Snowball by Paul Shipton. Le sugerimos que vayan trayendo el libro a clases.\nEvaluaciones:\nUnit 2 Mealtime (Se envió correo informando contenidos). 2ºA 27/4 2ºC Y D 29/4\nSUBJECT: SCIENCE & SOCIETY - IPC Miss Valentina González: vgonzalezr @cpdv.cl Miss Javiera Morales: įmoralesf@cpdv.cl\nContenidos de la semana: Geography and Chilean Landscapes\nMateriales: En el contexto del nuevo contenido que trabajaremos en clases, los estudiantes pueden traer de manera opcional accesorios relacionados con las vacaciones (ej: lentes de sol, sombreros u otros elementos alusivos). Estos serán guardados en sus lockers y se utilizaran unicamente cuando sea necesario durante las actividades indicadas por el profesor(a).\nEvaluaciones:N/A\nSUBJECT: MUSIC - IPC Mister Nicolás Fita: nfitar@cpdv.cl\nContenidos de la semana: Actividad evaluada \"Mi primera canción\"\nEvaluaciones:\nCada estudiante debera presentar la cancion que compuso en clases para enseñarla al curso, luego el curso cantara los cuatro compases de dicha canción. Esta actividad sera guiada por el profesor y llevará una nota.\nSUBJECT: TECHNOLOGY\nMiss Josefina Urrutia: jurrutiag@cpdv.cl\nContenidos de la semana: Maquinas simples y compuestas\nMateriales: Plastilinas, palos de helado, lana (1 metro)"
+  }
+]
