@@ -534,6 +534,10 @@ const obtenerHorarioDia = (item, diaKey) => {
           </section>
 
 
+
+        </div>
+
+
           <div className="field full">
             <label>Seleccionar semana 2026</label>
             <select value={semanaSeleccionada} onChange={cambiarSemanaDesdeCombo}>
@@ -546,8 +550,7 @@ const obtenerHorarioDia = (item, diaKey) => {
             </select>
           </div>
 
-        </div>
-
+          
           <section className="card calendar-card">
             <div className="card-header">
               <h2>Calendario semanal</h2>
