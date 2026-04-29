@@ -20,7 +20,10 @@ function App() {
     },
   ]);
 
-
+const API_URL =
+  import.meta.env.MODE === "development"
+    ? "http://localhost:3001"
+    : window.location.origin;
 
 //  const actividadesPath = path.join(__dirname, "..", "data", "actividades.json");
 
@@ -60,7 +63,7 @@ function App() {
             descripcion: descripcionNota || "",
           };
 
-          const res = await fetch(`${window.location.origin}/api/notas-semana`, {
+          const res = await fetch(`${API_URL}/api/notas-semana`, {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
@@ -147,7 +150,7 @@ function App() {
       };
 
       useEffect(() => {
-        fetch(`${window.location.origin}/api/health`)
+        fetch(`${API_URL}/api/health`)
           .then((res) => {
             if (!res.ok) throw new Error("error backend");
             return res.json();
@@ -230,7 +233,7 @@ function App() {
   });
 
   try {
-    const response = await fetch(`${window.location.origin}/api/notas-semana`, {
+    const response = await fetch(`${API_URL}/api/notas-semana`, {
       method: "POST",
       body: formData,
     });
