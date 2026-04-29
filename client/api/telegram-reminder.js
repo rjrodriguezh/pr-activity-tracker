@@ -6,6 +6,9 @@ const supabase = createClient(
   process.env.SUPABASE_KEY
 );
 
+
+
+
 function fechaOffset(dias) {
   const fecha = new Date();
   fecha.setDate(fecha.getDate() + dias);
