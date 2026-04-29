@@ -283,6 +283,7 @@ export default async function handler(req, res) {
       .from("notas_semana")
       .insert([
         {
+          id: Date.now(),
           semana_inicio: semanaInicio,
           semana_fin: semanaFin,
           descripcion,
