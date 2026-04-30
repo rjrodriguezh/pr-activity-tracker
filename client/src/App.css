@@ -824,3 +824,38 @@ button:hover {
   padding: 6px 8px;
   font-size: 13px;
 }
+
+
+.calendar-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.semana-selector {
+  display: flex;
+  flex-direction: column;
+  width: 220px; /* 👈 más compacto */
+}
+
+.semana-selector label {
+  font-size: 12px;
+  margin-bottom: 4px;
+  color: #666;
+}
+
+.semana-selector select {
+  padding: 6px 8px;
+  font-size: 13px;
+}
+
+.semana-selector {
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.semana-selector label {
+  margin: 0;
+}
