@@ -5,8 +5,8 @@ export default async function handler(req, res) {
 
     console.log("Webhook:", body);
 
-    if (!body.message) {
-      return res.status(200).json({ ok: true });
+    if (!body || !body.message || !body.message.text) {
+      return res.status(200).json({ ok: true, ignored: true });
     }
 
     const chatId = body.message.chat.id;
