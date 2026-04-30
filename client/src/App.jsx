@@ -554,7 +554,7 @@ const obtenerHorarioDia = (item, diaKey) => {
             */}
           </section>
 
-
+<h1>TEST CRON</h1>
           <section className="card cron-card">
   <div className="card-header">
     <h2>Recordatorios</h2>
