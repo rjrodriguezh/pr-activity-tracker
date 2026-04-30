@@ -859,3 +859,6 @@ button:hover {
 .semana-selector label {
   margin: 0;
 }
+.cron-card {
+  margin-top: 15px;
+}
