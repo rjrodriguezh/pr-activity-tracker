@@ -706,7 +706,7 @@ const obtenerHorarioDia = (item, diaKey) => {
             <div className="card-header clickable" onClick={() => togglePanel("chat")}>
               <div>
                 <h2>Chat</h2>
-                <span>Consultas</span>
+                <span>Consultas </span>
               </div>
               <button type="button">
                 {paneles.chat ? "Cerrar" : "Abrir"}
