@@ -11,6 +11,7 @@ export default async function handler(req, res) {
       const { data, error } = await supabase
         .from("cron_eventos")
         .select("*")
+        .order("fecha_chile", { ascending: true, nullsFirst: false })
         .order("hora_chile", { ascending: true });
 
       if (error) throw error;
@@ -18,16 +19,26 @@ export default async function handler(req, res) {
     }
 
     if (req.method === "POST") {
-      const { nombre, hora_chile, activo, tipo, descripcion } = req.body;
+      const {
+        nombre,
+        hora_chile,
+        activo,
+        tipo,
+        fecha_chile,
+        mensaje,
+        descripcion,
+      } = req.body;
 
       const { data, error } = await supabase
         .from("cron_eventos")
         .insert([
           {
             nombre,
+            tipo: tipo || "diario",
+            fecha_chile: tipo === "fecha" ? fecha_chile : null,
             hora_chile,
+            mensaje: mensaje || "",
             activo: activo ?? true,
-            tipo: tipo || "telegram-reminder",
             descripcion: descripcion || "",
           },
         ])
@@ -38,16 +49,27 @@ export default async function handler(req, res) {
     }
 
     if (req.method === "PUT") {
-      const { id, nombre, hora_chile, activo, tipo, descripcion } = req.body;
+      const {
+        id,
+        nombre,
+        hora_chile,
+        activo,
+        tipo,
+        fecha_chile,
+        mensaje,
+        descripcion,
+      } = req.body;
 
       const { data, error } = await supabase
         .from("cron_eventos")
         .update({
           nombre,
+          tipo: tipo || "diario",
+          fecha_chile: tipo === "fecha" ? fecha_chile : null,
           hora_chile,
+          mensaje: mensaje || "",
           activo,
-          tipo,
-          descripcion,
+          descripcion: descripcion || "",
         })
         .eq("id", id)
         .select("*");

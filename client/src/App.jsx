@@ -2,6 +2,17 @@ import { useEffect, useRef, useState } from "react";
 import "./App.css";
 
 
+const [horaServer, setHoraServer] = useState("");
+const [horaChile, setHoraChile] = useState("");
+
+
+const cargarHoras = async () => {
+  const res = await fetch(`${API_URL}/api/telegram-reminder?debug=true`);
+  const data = await res.json();
+
+  setHoraServer(data.horaServer || "");
+  setHoraChile(data.horaChile || "");
+};
 
   function getSemanaActual() {
   const hoy = new Date();
@@ -152,6 +163,7 @@ const cancelarEdicionCron = () => {
 
 useEffect(() => {
   cargarCronEventos();
+  cargarHoras();
 }, []);
 
   const cambiarSemanaDesdeCombo = async (e) => {
@@ -204,6 +216,7 @@ useEffect(() => {
 
   setSemanaInicio(semana.inicio);
   setSemanaFin(semana.fin);
+  setSemanaSeleccionada(semana.inicio);
   setDescripcionNota(`Descripción semana ${semana.inicio} al ${semana.fin}`);
 }, []);
 
@@ -612,7 +625,11 @@ const obtenerHorarioDia = (item, diaKey) => {
             placeholder="Ej: Recordatorio materiales"
           />
         </div>
-
+        
+<div className="time-debug">
+  <span>Server: {horaServer || "-"}</span>
+  <span>Chile: {horaChile || "-"}</span>
+</div>
         <div className="field full">
           <label>Tipo</label>
           <select value={cronTipo} onChange={(e) => setCronTipo(e.target.value)}>

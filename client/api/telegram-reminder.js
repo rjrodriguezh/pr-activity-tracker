@@ -2,6 +2,11 @@ import { createClient } from "@supabase/supabase-js";
 
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
 
+
+function horaServerActual() {
+  return new Date().toISOString();
+}
+
 function fechaChileActual() {
   return new Date().toLocaleDateString("en-CA", {
     timeZone: "America/Santiago",
@@ -96,6 +101,16 @@ async function enviarTelegram(mensaje) {
 export default async function handler(req, res) {
   try {
     const control = await obtenerEventosActivos();
+
+
+    if (req.query.debug === "true") {
+      return res.status(200).json({
+        ok: true,
+        horaServer: horaServerActual(),
+        horaChile: horaChileActual(),
+        fechaChile: fechaChileActual(),
+      });
+    }
 
     if (!control.eventos.length && req.query.force !== "true") {
       return res.status(200).json({
