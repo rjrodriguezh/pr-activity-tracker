@@ -882,3 +882,10 @@ button:hover {
   justify-content: space-between;
   gap: 8px;
 }
+
+.card-header.clickable {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

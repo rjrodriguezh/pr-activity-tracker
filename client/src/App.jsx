@@ -70,9 +70,9 @@ const [cronMensaje, setCronMensaje] = useState("");
 const [cronActivo, setCronActivo] = useState(true);
 
 const [paneles, setPaneles] = useState({
-  nota: true,
-  recordatorios: true,
-  chat: true,
+  nota: false,
+  recordatorios: false,
+  chat: false,
 });
 
 const togglePanel = (panel) => {
@@ -525,10 +525,15 @@ const obtenerHorarioDia = (item, diaKey) => {
 
         <div className="left-column">
           <section className="card upload-card">
-            <div className="card-header clickable" onClick={() => togglePanel("nota")}>
+           <div className="card-header clickable" onClick={() => togglePanel("nota")}>
+            <div>
               <h2>Agregar nota semanal</h2>
               <span>Bulletin / imágenes / PDF</span>
             </div>
+            <button type="button">
+              {paneles.nota ? "Cerrar" : "Abrir"}
+            </button>
+          </div>
 
 {paneles.nota && (
   <>
@@ -590,7 +595,7 @@ const obtenerHorarioDia = (item, diaKey) => {
       <h2>Recordatorios</h2>
       <span>Telegram</span>
     </div>
-    <button type="button" className="collapse-button">
+    <button type="button">
       {paneles.recordatorios ? "Cerrar" : "Abrir"}
     </button>
   </div>
@@ -698,9 +703,14 @@ const obtenerHorarioDia = (item, diaKey) => {
 
 
           <section className="card chat-card">
-            <div className="card-header clickable" onClick={() => togglePanel("nota")}>
-              <h2>Chat</h2>
-              <span>Consultas</span>
+            <div className="card-header clickable" onClick={() => togglePanel("chat")}>
+              <div>
+                <h2>Chat</h2>
+                <span>Consultas</span>
+              </div>
+              <button type="button">
+                {paneles.chat ? "Cerrar" : "Abrir"}
+              </button>
             </div>
   {paneles.recordatorios && (
     <>
