@@ -629,14 +629,7 @@ button:hover {
   color: #1e40af;
 }
 
-.left-column {
-  grid-area: left;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  position: sticky;
-  top: 20px;
-}
+
 
 .calendar-card {
   grid-area: calendario;
@@ -912,4 +905,106 @@ button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+
+
+.app-shell {
+  width: 100%;
+  min-height: 100vh;
+  padding: 16px 24px;
+  box-sizing: border-box;
+}
+
+.dashboard-grid {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.top-panels {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 260px;
+  gap: 16px;
+  align-items: start;
+}
+
+.upload-card,
+.cron-card,
+.chat-card {
+  width: 100%;
+  min-width: 0;
+}
+
+.calendar-card {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.calendar-top {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.semana-selector {
+  width: 260px;
+}
+
+.semana-selector select {
+  width: 100%;
+}
+
+.week-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+@media (max-width: 1100px) {
+  .top-panels {
+    grid-template-columns: 1fr;
+  }
+
+  .calendar-top {
+    grid-template-columns: 1fr;
+  }
+
+  .semana-selector {
+    width: 100%;
+  }
+}
+
+.top-panels {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  align-items: start;
+}
+
+.semana-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.semana-selector select {
+  width: 100%;
+}
+
+.calendar-top {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 1100px) {
+  .top-panels {
+    grid-template-columns: 1fr;
+  }
 }

@@ -742,6 +742,32 @@ const obtenerHorarioDia = (item, diaKey) => {
 
 
 
+
+
+
+ {/* NUEVO: SEMANA */}
+  <section className="card semana-card">
+    <div className="card-header">
+      <div>
+        <h2>Semana 2026</h2>
+        <span>Seleccionar</span>
+      </div>
+    </div>
+
+    <div className="semana-selector">
+      <select value={semanaSeleccionada} onChange={cambiarSemanaDesdeCombo}>
+        <option value="">Seleccionar</option>
+        {semanas2026.map((semana) => (
+          <option key={semana.inicio} value={semana.inicio}>
+            {semana.label}
+          </option>
+        ))}
+      </select>
+    </div>
+  </section>
+ {/* NUEVO: SEMANA */}
+
+
         </div>
 
 
@@ -750,18 +776,6 @@ const obtenerHorarioDia = (item, diaKey) => {
           <section className="card calendar-card">
 
             <div className="calendar-top">
-
-              <div className="semana-selector">
-                <label>Semana 2026</label>
-                <select value={semanaSeleccionada} onChange={cambiarSemanaDesdeCombo}>
-                  <option value="">Seleccionar</option>
-                  {semanas2026.map((semana) => (
-                    <option key={semana.inicio} value={semana.inicio}>
-                      {semana.label}
-                    </option>
-                  ))}
-                </select>
-              </div>
 
               <div className="card-header">
                 <h2>Calendario semanal</h2>
