@@ -420,16 +420,40 @@ button:hover {
 }
 
 
-
 .dashboard-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.top-panels {
   display: grid;
-  grid-template-columns: 320px 1fr; /* izquierda fija, derecha crece */
-  grid-template-rows: auto auto;
-  grid-template-areas:
-    "left calendario"
-    "left calendario";
-  gap: 20px;
+  grid-template-columns: repeat(3, minmax(260px, 1fr));
+  gap: 16px;
   align-items: start;
+}
+
+.calendar-card {
+  width: 100%;
+}
+
+.calendar-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.semana-selector {
+  width: 100%;
+  max-width: 360px;
+}
+
+@media (max-width: 900px) {
+  .top-panels {
+    grid-template-columns: 1fr;
+  }
 }
 
 .week-grid {

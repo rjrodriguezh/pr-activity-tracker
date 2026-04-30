@@ -523,7 +523,7 @@ const obtenerHorarioDia = (item, diaKey) => {
 
       <main className="dashboard-grid">
 
-        <div className="left-column">
+        <div className="top-panels">
           <section className="card upload-card">
            <div className="card-header clickable" onClick={() => togglePanel("nota")}>
             <div>
