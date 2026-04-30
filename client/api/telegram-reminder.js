@@ -1,12 +1,12 @@
-// trigger deploy
 import { createClient } from "@supabase/supabase-js";
 
-const supabase = createClient(
-  process.env.SUPABASE_URL,
-  process.env.SUPABASE_KEY
-);
+const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
 
-
+function fechaChileActual() {
+  return new Date().toLocaleDateString("en-CA", {
+    timeZone: "America/Santiago",
+  });
+}
 
 function horaChileActual() {
   return new Date().toLocaleTimeString("es-CL", {
@@ -17,22 +17,26 @@ function horaChileActual() {
   });
 }
 
-async function debeEnviarAhora() {
+async function obtenerEventosActivos() {
+  const fecha = fechaChileActual();
   const hora = horaChileActual();
 
   const { data, error } = await supabase
     .from("cron_eventos")
     .select("*")
-    .eq("activo", true)
-    .eq("hora_chile", hora);
+    .eq("activo", true);
 
   if (error) throw error;
 
-  return {
-    enviar: data && data.length > 0,
-    hora,
-    eventos: data || [],
-  };
+  const eventos = (data || []).filter((e) => {
+    if (e.tipo === "fecha") {
+      return e.fecha_chile === fecha && e.hora_chile === hora;
+    }
+
+    return e.hora_chile === hora;
+  });
+
+  return { fecha, hora, eventos };
 }
 
 function fechaOffset(dias) {
@@ -64,54 +68,41 @@ function formatearActividades(titulo, fecha, actividades) {
     return `<b>${titulo} (${fecha})</b>\nSin actividades registradas.`;
   }
 
-  const detalle = actividades
-    .map((a, i) => {
-      return `${i + 1}) <b>${escaparHtml(a.actividad || a.asignatura_relacionada)}</b>
+  return `<b>${titulo} (${fecha})</b>\n` + actividades.map((a, i) => {
+    return `${i + 1}) <b>${escaparHtml(a.actividad || a.asignatura_relacionada)}</b>
 <b>Asignatura:</b> ${escaparHtml(a.asignatura_relacionada)}
 <b>Observaciones:</b> ${escaparHtml(a.observaciones)}`;
-    })
-    .join("\n\n");
-
-  return `<b>${titulo} (${fecha})</b>\n${detalle}`;
+  }).join("\n\n");
 }
 
 async function enviarTelegram(mensaje) {
-  const token = process.env.TELEGRAM_BOT_TOKEN;
-  const chatId = process.env.TELEGRAM_CHAT_ID;
-
-  const url = `https://api.telegram.org/bot${token}/sendMessage`;
+  const url = `https://api.telegram.org/bot${process.env.TELEGRAM_BOT_TOKEN}/sendMessage`;
 
   const response = await fetch(url, {
     method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
+    headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
-      chat_id: chatId,
+      chat_id: process.env.TELEGRAM_CHAT_ID,
       text: mensaje,
       parse_mode: "HTML",
     }),
   });
 
   const data = await response.json();
-
-  if (!response.ok) {
-    throw new Error(JSON.stringify(data));
-  }
-
+  if (!response.ok) throw new Error(JSON.stringify(data));
   return data;
 }
 
 export default async function handler(req, res) {
   try {
+    const control = await obtenerEventosActivos();
 
-    const control = await debeEnviarAhora();
-
-    if (!control.enviar && req.query.force !== "true") {
+    if (!control.eventos.length && req.query.force !== "true") {
       return res.status(200).json({
         ok: true,
         enviado: false,
-        motivo: "No hay cron_eventos activos para esta hora",
+        motivo: "No hay recordatorios activos para esta fecha/hora",
+        fechaChile: control.fecha,
         horaChile: control.hora,
       });
     }
@@ -122,7 +113,12 @@ export default async function handler(req, res) {
     const actividadesManana = await obtenerActividades(manana);
     const actividadesPasado = await obtenerActividades(pasadoManana);
 
-    const mensaje = `📚 <b>Recordatorio escolar automático</b>\n\n${formatearActividades(
+    const mensajesExtra = control.eventos
+      .map((e) => e.mensaje ? `🔔 <b>${escaparHtml(e.nombre)}</b>\n${escaparHtml(e.mensaje)}` : "")
+      .filter(Boolean)
+      .join("\n\n");
+
+    const mensaje = `${mensajesExtra ? `${mensajesExtra}\n\n` : ""}📚 <b>Recordatorio escolar automático</b>\n\n${formatearActividades(
       "✅ Mañana",
       manana,
       actividadesManana
@@ -134,7 +130,7 @@ export default async function handler(req, res) {
 
     await enviarTelegram(mensaje);
 
-    return res.status(200).json({ ok: true, enviado: true });
+    return res.status(200).json({ ok: true, enviado: true, eventos: control.eventos.length });
   } catch (error) {
     console.error("Error telegram reminder:", error);
     return res.status(500).json({ error: error.message });

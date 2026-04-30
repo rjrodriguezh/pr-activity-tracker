@@ -60,11 +60,27 @@ function App() {
   
 
 
-  const [cronEventos, setCronEventos] = useState([]);
+const [cronEventos, setCronEventos] = useState([]);
+const [cronEditandoId, setCronEditandoId] = useState(null);
 const [cronNombre, setCronNombre] = useState("");
+const [cronTipo, setCronTipo] = useState("diario");
+const [cronFecha, setCronFecha] = useState("");
 const [cronHora, setCronHora] = useState("08:30");
+const [cronMensaje, setCronMensaje] = useState("");
 const [cronActivo, setCronActivo] = useState(true);
 
+const [paneles, setPaneles] = useState({
+  nota: true,
+  recordatorios: true,
+  chat: true,
+});
+
+const togglePanel = (panel) => {
+  setPaneles((prev) => ({
+    ...prev,
+    [panel]: !prev[panel],
+  }));
+};
 
 const cargarCronEventos = async () => {
   const res = await fetch(`${API_URL}/api/cron-eventos`);
@@ -75,20 +91,30 @@ const cargarCronEventos = async () => {
 const guardarCronEvento = async (e) => {
   e.preventDefault();
 
+  const payload = {
+    id: cronEditandoId,
+    nombre: cronNombre || "Recordatorio escolar",
+    tipo: cronTipo,
+    fecha_chile: cronTipo === "fecha" ? cronFecha : null,
+    hora_chile: cronHora,
+    mensaje: cronMensaje,
+    activo: cronActivo,
+    descripcion: "Recordatorio automático Telegram",
+  };
+
   const res = await fetch(`${API_URL}/api/cron-eventos`, {
-    method: "POST",
+    method: cronEditandoId ? "PUT" : "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      nombre: cronNombre || "Recordatorio escolar",
-      hora_chile: cronHora,
-      activo: cronActivo,
-      descripcion: "Recordatorio automático Telegram",
-    }),
+    body: JSON.stringify(payload),
   });
 
   if (res.ok) {
+    setCronEditandoId(null);
     setCronNombre("");
+    setCronTipo("diario");
+    setCronFecha("");
     setCronHora("08:30");
+    setCronMensaje("");
     setCronActivo(true);
     cargarCronEventos();
   }
@@ -100,6 +126,27 @@ const eliminarCronEvento = async (id) => {
   });
 
   cargarCronEventos();
+};
+
+
+const editarCronEvento = (evento) => {
+  setCronEditandoId(evento.id);
+  setCronNombre(evento.nombre || "");
+  setCronTipo(evento.tipo || "diario");
+  setCronFecha(evento.fecha_chile || "");
+  setCronHora(evento.hora_chile || "08:30");
+  setCronMensaje(evento.mensaje || "");
+  setCronActivo(Boolean(evento.activo));
+};
+
+const cancelarEdicionCron = () => {
+  setCronEditandoId(null);
+  setCronNombre("");
+  setCronTipo("diario");
+  setCronFecha("");
+  setCronHora("08:30");
+  setCronMensaje("");
+  setCronActivo(true);
 };
 
 
@@ -478,11 +525,13 @@ const obtenerHorarioDia = (item, diaKey) => {
 
         <div className="left-column">
           <section className="card upload-card">
-            <div className="card-header">
+            <div className="card-header clickable" onClick={() => togglePanel("nota")}>
               <h2>Agregar nota semanal</h2>
               <span>Bulletin / imágenes / PDF</span>
             </div>
 
+{paneles.nota && (
+  <>
               <form onSubmit={guardarNotaSemana} className="form-grid" encType="multipart/form-data">
               <div className="row-fechas">
                 <div>
@@ -530,88 +579,131 @@ const obtenerHorarioDia = (item, diaKey) => {
                 Cargar y previsualizar
               </button>
             </form>
+</>
+)}
 
-            {mensajeNota && <p className="notice"><strong>{mensajeNota}</strong></p>}
-            {/*
-            {notaPreview && (
-              <div className="files-mini">
-                {notaPreview.archivos.map((archivo, index) => (
-                  <div key={index} className="mini-file-card">
-                    <strong>{archivo.originalName}</strong>
-
-                    {archivo.mimeType.startsWith("image/") && (
-                      <img
-                        src={`http://localhost:3001/uploads/${archivo.filename}`}
-                        alt={archivo.originalName}
-                      />
-                    )}
-
-                    {archivo.mimeType === "application/pdf" && <span>PDF cargado</span>}
-                  </div>
-                ))}
-              </div>
-            )}
-            */}
           </section>
 
-          <section className="card cron-card">
-  <div className="card-header">
-    <h2>Recordatorios</h2>
-    <span>Telegram</span>
-  </div>
-
-  <form onSubmit={guardarCronEvento} className="form-grid">
-    <div className="field full">
-      <label>Nombre</label>
-      <input
-        type="text"
-        value={cronNombre}
-        onChange={(e) => setCronNombre(e.target.value)}
-        placeholder="Ej: Recordatorio mañana"
-      />
+<section className="card cron-card">
+  <div className="card-header clickable" onClick={() => togglePanel("recordatorios")}>
+    <div>
+      <h2>Recordatorios</h2>
+      <span>Telegram</span>
     </div>
-
-    <div className="field full">
-      <label>Hora Chile</label>
-      <input
-        type="time"
-        value={cronHora}
-        onChange={(e) => setCronHora(e.target.value)}
-      />
-    </div>
-
-    <label>
-      <input
-        type="checkbox"
-        checked={cronActivo}
-        onChange={(e) => setCronActivo(e.target.checked)}
-      />
-      Activo
-    </label>
-
-    <button type="submit" className="primary-button">
-      Agregar recordatorio
+    <button type="button" className="collapse-button">
+      {paneles.recordatorios ? "Cerrar" : "Abrir"}
     </button>
-  </form>
-
-  <div className="cron-list">
-    {cronEventos.map((evento) => (
-      <div key={evento.id} className="cron-item">
-        <strong>{evento.hora_chile}</strong> - {evento.nombre}
-        <button type="button" onClick={() => eliminarCronEvento(evento.id)}>
-          Eliminar
-        </button>
-      </div>
-    ))}
   </div>
+
+  {paneles.recordatorios && (
+    <>
+      <form onSubmit={guardarCronEvento} className="form-grid">
+        <div className="field full">
+          <label>Nombre</label>
+          <input
+            type="text"
+            value={cronNombre}
+            onChange={(e) => setCronNombre(e.target.value)}
+            placeholder="Ej: Recordatorio materiales"
+          />
+        </div>
+
+        <div className="field full">
+          <label>Tipo</label>
+          <select value={cronTipo} onChange={(e) => setCronTipo(e.target.value)}>
+            <option value="diario">Hora diaria</option>
+            <option value="fecha">Fecha y hora específica</option>
+          </select>
+        </div>
+
+        {cronTipo === "fecha" && (
+          <div className="field full">
+            <label>Fecha Chile</label>
+            <input
+              type="date"
+              value={cronFecha}
+              onChange={(e) => setCronFecha(e.target.value)}
+              required
+            />
+          </div>
+        )}
+
+        <div className="field full">
+          <label>Hora Chile</label>
+          <input
+            type="time"
+            value={cronHora}
+            onChange={(e) => setCronHora(e.target.value)}
+          />
+        </div>
+
+        <div className="field full">
+          <label>Mensaje opcional</label>
+          <textarea
+            value={cronMensaje}
+            onChange={(e) => setCronMensaje(e.target.value)}
+            placeholder="Ej: revisar mochila, materiales o uniforme"
+          />
+        </div>
+
+        <label>
+          <input
+            type="checkbox"
+            checked={cronActivo}
+            onChange={(e) => setCronActivo(e.target.checked)}
+          />
+          Activo
+        </label>
+
+        <button type="submit" className="primary-button">
+          {cronEditandoId ? "Guardar cambios" : "Agregar recordatorio"}
+        </button>
+
+        {cronEditandoId && (
+          <button type="button" onClick={cancelarEdicionCron}>
+            Cancelar edición
+          </button>
+        )}
+      </form>
+
+      <div className="cron-list">
+        {cronEventos.map((evento) => (
+          <div key={evento.id} className="cron-item">
+            <div>
+              <strong>{evento.hora_chile}</strong> - {evento.nombre}
+              <br />
+              <small>
+                {evento.tipo === "fecha"
+                  ? `Fecha específica: ${evento.fecha_chile}`
+                  : "Diario"}
+                {" | "}
+                {evento.activo ? "Activo" : "Inactivo"}
+              </small>
+            </div>
+
+            <div className="cron-actions">
+              <button type="button" onClick={() => editarCronEvento(evento)}>
+                Editar
+              </button>
+              <button type="button" onClick={() => eliminarCronEvento(evento.id)}>
+                Eliminar
+              </button>
+            </div>
+          </div>
+        ))}
+      </div>
+    </>
+  )}
 </section>
 
 
           <section className="card chat-card">
-            <div className="card-header">
+            <div className="card-header clickable" onClick={() => togglePanel("nota")}>
               <h2>Chat</h2>
               <span>Consultas</span>
             </div>
+  {paneles.recordatorios && (
+    <>
 
             <div className="chat-box">
               {conversacion.map((msg, index) => (
@@ -633,7 +725,9 @@ const obtenerHorarioDia = (item, diaKey) => {
                 placeholder="Ej: ¿qué toca mañana?"
               />
               <button type="button" onClick={enviarMensaje}>Enviar</button>
-            </div>
+            </div> 
+  </>
+)}
           </section>
 
 
