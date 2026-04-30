@@ -712,7 +712,7 @@ const obtenerHorarioDia = (item, diaKey) => {
                 {paneles.chat ? "Cerrar" : "Abrir"}
               </button>
             </div>
-  {paneles.recordatorios && (
+  {paneles.chat && (
     <>
 
             <div className="chat-box">
