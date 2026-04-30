@@ -862,3 +862,23 @@ button:hover {
 .cron-card {
   margin-top: 15px;
 }
+.cron-card {
+  margin-top: 16px;
+}
+
+.cron-list {
+  margin-top: 10px;
+  display: grid;
+  gap: 8px;
+}
+
+.cron-item {
+  font-size: 12px;
+  padding: 8px;
+  border: 1px solid #dbe3ef;
+  border-radius: 8px;
+  background: #f8fbff;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}

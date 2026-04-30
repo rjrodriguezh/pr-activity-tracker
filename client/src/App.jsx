@@ -1,52 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import "./App.css";
 
-const [cronEventos, setCronEventos] = useState([]);
-const [cronNombre, setCronNombre] = useState("");
-const [cronHora, setCronHora] = useState("08:30");
-const [cronActivo, setCronActivo] = useState(true);
 
-
-const cargarCronEventos = async () => {
-  const res = await fetch(`${API_URL}/api/cron-eventos`);
-  const data = await res.json();
-  setCronEventos(data);
-};
-
-const guardarCronEvento = async (e) => {
-  e.preventDefault();
-
-  const res = await fetch(`${API_URL}/api/cron-eventos`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      nombre: cronNombre || "Recordatorio escolar",
-      hora_chile: cronHora,
-      activo: cronActivo,
-      descripcion: "Recordatorio automático Telegram",
-    }),
-  });
-
-  if (res.ok) {
-    setCronNombre("");
-    setCronHora("08:30");
-    setCronActivo(true);
-    cargarCronEventos();
-  }
-};
-
-const eliminarCronEvento = async (id) => {
-  await fetch(`${API_URL}/api/cron-eventos?id=${id}`, {
-    method: "DELETE",
-  });
-
-  cargarCronEventos();
-};
-
-
-useEffect(() => {
-  cargarCronEventos();
-}, []);
 
   function getSemanaActual() {
   const hoy = new Date();
@@ -103,6 +58,55 @@ function App() {
   const [semanaSeleccionada, setSemanaSeleccionada] = useState("");
 
   
+
+
+  const [cronEventos, setCronEventos] = useState([]);
+const [cronNombre, setCronNombre] = useState("");
+const [cronHora, setCronHora] = useState("08:30");
+const [cronActivo, setCronActivo] = useState(true);
+
+
+const cargarCronEventos = async () => {
+  const res = await fetch(`${API_URL}/api/cron-eventos`);
+  const data = await res.json();
+  setCronEventos(data);
+};
+
+const guardarCronEvento = async (e) => {
+  e.preventDefault();
+
+  const res = await fetch(`${API_URL}/api/cron-eventos`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      nombre: cronNombre || "Recordatorio escolar",
+      hora_chile: cronHora,
+      activo: cronActivo,
+      descripcion: "Recordatorio automático Telegram",
+    }),
+  });
+
+  if (res.ok) {
+    setCronNombre("");
+    setCronHora("08:30");
+    setCronActivo(true);
+    cargarCronEventos();
+  }
+};
+
+const eliminarCronEvento = async (id) => {
+  await fetch(`${API_URL}/api/cron-eventos?id=${id}`, {
+    method: "DELETE",
+  });
+
+  cargarCronEventos();
+};
+
+
+useEffect(() => {
+  cargarCronEventos();
+}, []);
+
   const cambiarSemanaDesdeCombo = async (e) => {
   const valor = e.target.value;
   setSemanaSeleccionada(valor);
@@ -551,7 +555,7 @@ const obtenerHorarioDia = (item, diaKey) => {
           </section>
 
 
-          <section className="card chat-card">
+          <section className="card cron-card">
   <div className="card-header">
     <h2>Recordatorios</h2>
     <span>Telegram</span>
