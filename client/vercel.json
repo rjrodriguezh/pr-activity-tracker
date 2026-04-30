@@ -7,6 +7,14 @@
     {
       "path": "/api/telegram-reminder",
       "schedule": "30 12 * * *"
+    },
+    {
+      "path": "/api/telegram-reminder",
+      "schedule": "34 3 30 4 *"
+    },
+    {
+      "path": "/api/telegram-reminder",
+      "schedule": "22 7 30 4 *"
     }
   ]
 }
