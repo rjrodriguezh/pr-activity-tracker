@@ -1,7 +1,52 @@
 import { useEffect, useRef, useState } from "react";
 import "./App.css";
 
+const [cronEventos, setCronEventos] = useState([]);
+const [cronNombre, setCronNombre] = useState("");
+const [cronHora, setCronHora] = useState("08:30");
+const [cronActivo, setCronActivo] = useState(true);
 
+
+const cargarCronEventos = async () => {
+  const res = await fetch(`${API_URL}/api/cron-eventos`);
+  const data = await res.json();
+  setCronEventos(data);
+};
+
+const guardarCronEvento = async (e) => {
+  e.preventDefault();
+
+  const res = await fetch(`${API_URL}/api/cron-eventos`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      nombre: cronNombre || "Recordatorio escolar",
+      hora_chile: cronHora,
+      activo: cronActivo,
+      descripcion: "Recordatorio automático Telegram",
+    }),
+  });
+
+  if (res.ok) {
+    setCronNombre("");
+    setCronHora("08:30");
+    setCronActivo(true);
+    cargarCronEventos();
+  }
+};
+
+const eliminarCronEvento = async (id) => {
+  await fetch(`${API_URL}/api/cron-eventos?id=${id}`, {
+    method: "DELETE",
+  });
+
+  cargarCronEventos();
+};
+
+
+useEffect(() => {
+  cargarCronEventos();
+}, []);
 
   function getSemanaActual() {
   const hoy = new Date();
@@ -504,6 +549,61 @@ const obtenerHorarioDia = (item, diaKey) => {
             )}
             */}
           </section>
+
+
+          <section className="card chat-card">
+  <div className="card-header">
+    <h2>Recordatorios</h2>
+    <span>Telegram</span>
+  </div>
+
+  <form onSubmit={guardarCronEvento} className="form-grid">
+    <div className="field full">
+      <label>Nombre</label>
+      <input
+        type="text"
+        value={cronNombre}
+        onChange={(e) => setCronNombre(e.target.value)}
+        placeholder="Ej: Recordatorio mañana"
+      />
+    </div>
+
+    <div className="field full">
+      <label>Hora Chile</label>
+      <input
+        type="time"
+        value={cronHora}
+        onChange={(e) => setCronHora(e.target.value)}
+      />
+    </div>
+
+    <label>
+      <input
+        type="checkbox"
+        checked={cronActivo}
+        onChange={(e) => setCronActivo(e.target.checked)}
+      />
+      Activo
+    </label>
+
+    <button type="submit" className="primary-button">
+      Agregar recordatorio
+    </button>
+  </form>
+
+  <div className="cron-list">
+    {cronEventos.map((evento) => (
+      <div key={evento.id} className="cron-item">
+        <strong>{evento.hora_chile}</strong> - {evento.nombre}
+        <button type="button" onClick={() => eliminarCronEvento(evento.id)}>
+          Eliminar
+        </button>
+      </div>
+    ))}
+  </div>
+</section>
+
+
           <section className="card chat-card">
             <div className="card-header">
               <h2>Chat</h2>

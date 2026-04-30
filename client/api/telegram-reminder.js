@@ -8,6 +8,32 @@ const supabase = createClient(
 
 
 
+function horaChileActual() {
+  return new Date().toLocaleTimeString("es-CL", {
+    timeZone: "America/Santiago",
+    hour12: false,
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+}
+
+async function debeEnviarAhora() {
+  const hora = horaChileActual();
+
+  const { data, error } = await supabase
+    .from("cron_eventos")
+    .select("*")
+    .eq("activo", true)
+    .eq("hora_chile", hora);
+
+  if (error) throw error;
+
+  return {
+    enviar: data && data.length > 0,
+    hora,
+    eventos: data || [],
+  };
+}
 
 function fechaOffset(dias) {
   const fecha = new Date();
@@ -78,6 +104,18 @@ async function enviarTelegram(mensaje) {
 
 export default async function handler(req, res) {
   try {
+
+    const control = await debeEnviarAhora();
+
+    if (!control.enviar && req.query.force !== "true") {
+      return res.status(200).json({
+        ok: true,
+        enviado: false,
+        motivo: "No hay cron_eventos activos para esta hora",
+        horaChile: control.hora,
+      });
+    }
+
     const manana = fechaOffset(1);
     const pasadoManana = fechaOffset(2);
 
